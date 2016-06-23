@@ -1,0 +1,53 @@
+{
+  "name": "i-feel-lucky-desktop-ui",
+  "version": "0.0.1",
+  "description": "ui of i-feel-lucky-desktop-ui in priceline.com hackson",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "startdev": "nodemon bin/www",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.7.1",
+    "debug": "^2.2.0",
+    "errorhandler": "^1.4.3",
+    "express": "4.13.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "http-status": "^0.2.0",
+    "lodash": "^4.11.1",
+    "nodemon": "^1.9.1",
+    "serve-favicon": "^2.3.0",
+    "superagent": "^1.7.2"
+  },
+  "devDependencies": {
+    "commitizen": "^2.3.0",
+    "del": "^2.2.0",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "run-sequence": "^1.1.5"
+  },
+  "engines": {
+    "node": "4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitTigerInst/wukong"
+  },
+  "keywords": [
+    "node",
+    "priceline.com",
+    "express",
+    "handlebars"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "license": "MIT"
+}
