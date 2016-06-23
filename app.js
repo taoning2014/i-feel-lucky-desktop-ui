@@ -2,27 +2,23 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
-var session = require('express-session');
+//var session = require('express-session');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var errorhandler = require('errorhandler');
-
 var staticPages = require('./routes/staticPages');
-
 var app = express();
-
 var exphbs = require('express-handlebars');
-
-var uristring = process.env.WUKONG_MONGO_URL;
-
-app.engine('handlebars', exphbs.create({
+var hbs = exphbs.create({
   defaultLayout: 'static',
   partialsDir: 'views/partials/'
-}));
+});
+
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(cors());
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.use(cookieParser());
 app.use(bodyParser.json());
@@ -30,7 +26,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // static resource for static page and angular
 app.use(express.static(__dirname + '/public/'));
-
 app.use('/', staticPages);
 
 // Handle 404
