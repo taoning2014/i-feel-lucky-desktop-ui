@@ -38,13 +38,33 @@
     </div>
 
     <div class="row">
-      <div class="col-md-3">
-        <button type="submit" id="hotel-search-form-submit" class="btn btn-success" value="submit">Search Hotels
+      <div class="col-md-4">
+        <button type="submit" id="hotel-search-form-submit" class="btn btn-success btn-block" value="submit">Search
+          Hotels
         </button>
       </div>
-      <div class="col-md-3">
-        <button type="submit" id="hotel-search-form-submit" class="btn btn-primary" value="submit">I'm Feeling...
-        </button>
+      <div class="col-md-5">
+        <!--<button type="submit" id="hotel-search-form-submit" class="btn btn-primary btn-block" value="submit" data-toggle="dropdown">I'm Feeling...-->
+        <!--</button>-->
+
+        <div class="dropdown">
+          <button type="submit" id="hotel-search-form-lucky-submit-btn"
+                  class="btn btn-primary btn-block dropdown-togglen" type="button" data-toggle="dropdown">
+            I'm Feeling...
+            <span class="glyphicon glyphicon-menu-down" style="float:right"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"
+              style="width:100%; background-color:#f2f2f2; color: #0a84c1;">
+            <li><a href="#">Romantic</a></li>
+            <li><a href="#">Business-like</a></li>
+            <li><a href="#">Family-like</a></li>
+            <li><a href="#">Trendy</a></li>
+            <li><a href="#">Luxurious</a></li>
+            <li><a href="#">Adventurous</a></li>
+            <li><a href="#">Boutiquey</a></li>
+            <li><a href="#">Beachy</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </form>
