@@ -1,0 +1,32 @@
+.label-font-overwrite label {
+  height: 16px;
+  font-family: Arial-BoldMT;
+  font-size: 14px;
+  color: #333333;
+  float: left;
+}
+
+.input-font-overwrite input {
+  background-color: #ffffff;
+  border: solid 1px #dcdcdc;
+}
+
+#hotel-search {
+  width: 700px;
+  height: 331px;
+  background-color: #ffffff;
+  padding: 2ex 2ex;
+}
+
+#search-and-save-on-h {
+  width: 334px;
+  height: 31px;
+  font-family: Arial-BoldMT;
+  font-size: 26px;
+  color: #333333;
+}
+
+#where-are-you-going-input {
+  width: 640px;
+  height: 40px;
+}
