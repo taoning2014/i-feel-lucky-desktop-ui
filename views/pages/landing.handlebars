@@ -9,6 +9,10 @@
            style="background-image: url('/images/i-feel-lucky-desktop-ui/homepage-slider-1.jpeg');">
         <div class="container clearfix">
           <div class="slider-caption slider-caption-center">
+            <form action="action_page.php">
+              Username: <input type="text" name="user">
+              <input type="submit">
+            </form>
             <h2 data-caption-animate="fadeInUp">Search Box</h2>
             <p data-caption-animate="fadeInUp" data-caption-delay="200">Search Box Place Holder</p>
           </div>
@@ -168,6 +172,8 @@
 
       </div>
     </div>
+
+    {{> landing-hotel-list}}
 
     <div class="section nobottommargin">
       <div class="container clear-bottommargin clearfix">
