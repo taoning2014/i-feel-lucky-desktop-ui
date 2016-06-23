@@ -22,19 +22,13 @@ XXX
 
 ## How to run i-feel-lucky-desktop-ui
 
-### Run wukong locally
+__Step 1. nodejs__
 
-__Step 1. Install mongodb and nodejs__
+__Step 2. get source code and install package__
 
-1. Install [mongodb](https://www.mongodb.org/downloads#production) and [node](https://nodejs.org/en/)
-2. Create data directory for mongodb store data: ` mkdir ~/Desktop/dbdata`
-3. Start mongodb server: ` mongod --dbpath ~/Desktop/dbdata`
-
-__Step 2. get wukong source code and install package__
-
-1. Clone wukong from github: ` $ git clone https://github.com/BitTigerInst/wukong.git `
-2. Go into wukong forlder and install node package: ` cd wukong && npm install `
-3. Run wukong: ` node index `
+1. Clone repo from github: ` $ git clone https://bitbucket.corp.priceline.com/projects/ENG/repos/i-feel-lucky-desktop-ui/browse `
+2. Go into repo forlder and install node package: ` cd i-feel-lucky-desktop-ui && npm install `
+3. Run express server: ` node index `
 
 ## Who we are:
 
@@ -52,13 +46,9 @@ __Step 2. get wukong source code and install package__
 </dl>
 
 #### Additional Tools
-* <a href="http://angular-ui.github.io/bootstrap/">UI Bootstrap</a> - Bootstrap components written in pure AngularJS
-* <a href="http://angular-ui.github.io/bootstrap/">UI Bootstrap</a> - Bootstrap components written in pure AngularJS
-
-## Credits
-  * <a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123">Canvas</a> Canvas The Multipurpose Html5 Template
-  * <a href="http://commitizen.github.io/cz-cli/">Commitizen</a> Commitizen For Contributors.
-  * <a href="http://eslint.org">Eslint</a> ESLint is an open source JavaScript linting utility.
+* <a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123">Canvas</a> Canvas The Multipurpose Html5 Template
+* <a href="http://commitizen.github.io/cz-cli/">Commitizen</a> Commitizen For Contributors.
+* <a href="http://eslint.org">Eslint</a> ESLint is an open source JavaScript linting utility.
 
 ## License
 We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
