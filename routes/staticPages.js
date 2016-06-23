@@ -1,8 +1,9 @@
 var express = require('express');
+var landingHotelData = require('../data/landing-list-hotels.json');
 var router = express.Router();
 
 router.get(/^\/(index(.html)?)?$/, function(req, res) {
-  res.render('pages/landing');
+  res.render('pages/landing', { hotels: landingHotelData });
 });
 
 router.get('/detail.html', function(req, res) {
