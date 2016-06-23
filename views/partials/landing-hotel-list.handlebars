@@ -10,29 +10,10 @@
   <div id="shop" class="clearfix">
     {{#each hotels.hotels}}
       <div class="product clearfix">
-        {{#if slide}}
-          <div class="product-image">
-            <div class="fslider" data-arrows="false">
-              <div class="flexslider">
-                <div class="slider-wrap">
-                  {{#each imgs}}
-                    <div class="slide"><a href="#"><img src="images/i-feel-lucky-desktop-ui/{{this}}"
-                                                        alt="Dark Brown Boots"></a>
-                    </div>
-                  {{/each}}
-                </div>
-              </div>
-            </div>
-            <div class="product-overlay">
-              <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Book It</span></a>
-              <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i
-                      class="icon-zoom-in2"></i><span> Detail</span></a>
-            </div>
-          </div>
-        {{else}}
-          <div class="product-image">
+
+          <div class="product-image" style="height: auto">
             {{#each imgs}}
-              <a href="#"><img src="images/i-feel-lucky-desktop-ui/{{this}}" alt="Checked Short Dress"></a>
+              <a href="#"><img src="images/i-feel-lucky-desktop-ui/{{this}}" alt="Checked Short Dress" style="height: auto"></a>
             {{/each}}
             {{#if discount}}
               <div class="sale-flash">{{discount}}</div>
@@ -43,7 +24,6 @@
                       class="icon-zoom-in2"></i><span> Detail</span></a>
             </div>
           </div>
-        {{/if}}
 
         <div class="product-desc">
           <div class="product-title"><h3><a href="#">{{hotelName}}</a></h3></div>

@@ -2,7 +2,6 @@
   "hotels":[{
     "id": 1,
     "hotelName": "Hilton",
-    "slide": false,
     "imgs":[
       "hotel-list-1.jpg",
       "hotel-list-1-1.jpg"
@@ -16,7 +15,6 @@
     {
       "id": 2,
       "hotelName": "AccorHotels",
-      "slide": false,
       "imgs":[
         "hotel-list-2.jpg",
         "hotel-list-2-1.jpg"
@@ -28,7 +26,6 @@
     {
       "id": 3,
       "hotelName": "Aman Resorts",
-      "slide": false,
       "imgs":[
         "hotel-list-3.jpg",
         "hotel-list-3-1.jpg"
@@ -41,7 +38,6 @@
     {
       "id": 4,
       "hotelName": "Hongkong and Shanghai Hotels",
-      "slide": false,
       "imgs":[
         "hotel-list-4.jpg",
         "hotel-list-4-1.jpg"
@@ -52,7 +48,6 @@
     {
       "id": 5,
       "hotelName": "La Quinta Inns & Suites",
-      "slide": false,
       "imgs":[
         "hotel-list-5.jpg",
         "hotel-list-5-1.jpg"
@@ -63,7 +58,6 @@
     },{
       "id": 6,
       "hotelName": "Millennium Hotels",
-      "slide": false,
       "imgs":[
         "hotel-list-6.jpg",
         "hotel-list-6-1.jpg"
@@ -74,7 +68,6 @@
     {
       "id": 7,
       "hotelName": "Omni Hotels & Resorts",
-      "slide": false,
       "imgs":[
         "hotel-list-7.jpg",
         "hotel-list-7-1.jpg"
@@ -86,7 +79,6 @@
     {
       "id": 8,
       "hotelName": "Premier Inn",
-      "slide": false,
       "imgs":[
         "hotel-list-8.jpg",
         "hotel-list-8-1.jpg"
@@ -97,7 +89,6 @@
     {
       "id": 9,
       "hotelName": "Shilo Inns",
-      "slide": false,
       "imgs":[
         "hotel-list-9.jpg",
         "hotel-list-9-1.jpg"
@@ -109,7 +100,6 @@
     {
       "id": 10,
       "hotelName": "Starwood Hotels & Resorts Worldwide",
-      "slide": false,
       "imgs":[
         "hotel-list-10.jpg",
         "hotel-list-10-1.jpg"
@@ -121,7 +111,6 @@
     },{
       "id": 11,
       "hotelName": "Holiday Inn",
-      "slide": false,
       "imgs":[
         "hotel-list-11.jpg",
         "hotel-list-11-1.jpg"
@@ -132,7 +121,6 @@
     },{
       "id": 12,
       "hotelName": "Vantage Hospitality",
-      "slide": false,
       "imgs":[
         "hotel-list-12.jpg",
         "hotel-list-12-1.jpg"
