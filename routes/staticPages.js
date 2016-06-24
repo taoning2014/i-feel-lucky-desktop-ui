@@ -27,6 +27,8 @@ router.get('/404.html', function(req, res) {
 
 router.get('/lucky', function(req, res) {
   var buildBackendURL = SERVERURL + req.originalUrl;
+  var hotelImages;
+
   console.log('Debug get URL: ' + req.originalUrl);
   console.log('Debug buildBackendURL: ' + buildBackendURL);
   request
@@ -36,7 +38,11 @@ router.get('/lucky', function(req, res) {
         throw new Error('Didn\'t got backend data');
       }
       console.log('Success hit backend, got respond.');
-      res.send(respond);
+      hotelImages = respond.hotel.images.slice(10, 15);
+      res.render('pages/detail', {
+        hotel: respond.hotel,
+        hotelImages: hotelImages
+      });
     });
 });
 
