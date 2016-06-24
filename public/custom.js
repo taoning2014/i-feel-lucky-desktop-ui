@@ -4,12 +4,13 @@ $(function() {
     if (!dataStr) {
       var date = new Date();
       var year = date.getFullYear().toString(10);
-      var month = (parseInt(date.getMonth(), 10) + 1) % 12 + 1;
+      var month = (parseInt(date.getMonth(), 10)) % 12 + 1;
       month = month < 10 ? '0' + month : month;
       var day = (parseInt(date.getDate(), 10));
       if (moreDates) {
         // TODO: Not totally right
-        day = (day + moreDates) % 30 + 1;
+        day = (day + moreDates) % 30;
+        day = (day === 0) ? day + 1 : day;
       }
       day = day < 10 ? '0' + day : day;
       return year + month + day;
