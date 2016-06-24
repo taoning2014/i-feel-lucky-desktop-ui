@@ -344,7 +344,7 @@ $(function() {
     if (isLuckySelected) {
       $('div.dropdown').removeClass('open');
       // Build url
-      var EXPRESSAPI = '/test';
+      var EXPRESSAPI = '/lucky';
       var feeling = $('#hotel-search-form-lucky-submit-btn').val();
       var queryParams = buildQueryParams(feeling);
 //      console.log('Debug: ' + EXPRESSAPI + queryParams);

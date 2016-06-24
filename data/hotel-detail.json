@@ -1,0 +1,536 @@
+{
+  "resultCode": 200,
+  "resultMessage": "SUCCESS",
+  "duration": 15592,
+  "version": "4.2.26-SNAPSHOT",
+  "rguid": "009273853a1911e6b558005056ba706b",
+  "src": "D02",
+  "hotel": {
+    "hotelId": "39527",
+    "name": "Hilton Boston Logan Airport",
+    "brand": "Hilton",
+    "brandId": "10",
+    "description": "With an airport location, an on-site pool and included shuttle service, convenience is the name of the game at the non-smoking Hilton Boston Logan Airport. Guests of the 10-story, non-smoking Hilton cross the skywalk from the airport into 599 spacious soundproofed rooms that all feature flat-panel TVs and plush bedding. Some rooms offer free Wi-Fi, views of Boston Harbor and access to the Executive Lounge. After a long flight, rejuvenate in the fitness center or take a dip in the year-round indoor pool. The on-site restaurant offers casual fare as well as room service. Valet and self-parking are available for an additional fee. Shuttle service is on the house. Next to Terminal E at Logan International Airport, the Hilton is three miles from Quincy Market, Faneuil Hall and the center of Boston. Sports fans cheer the Celtics at TD Garden, three-and-a-half miles away, and reach world-famous Fenway Park within a 15-minute drive. Guests are 10 minutes from the Massachusetts Institute of Technology and 15 minutes from Harvard University. Shopping abounds five miles away on Newbury Street. Priceline guests love the \"convenient\" airport access, the \"friendly\" staff and the \"comfortable rooms\" they find at the Hilton Boston Logan Airport. ",
+    "starRating": 4,
+    "propertyTypeId": 204,
+    "location": {
+      "address": {
+        "addressLine1": "One Hotel Drive",
+        "cityName": "Boston",
+        "provinceCode": "MA",
+        "countryName": "United States",
+        "zip": "02128",
+        "phone": "617-568-6700",
+        "isoCountryCode": "US"
+      },
+      "longitude": -71.023021,
+      "latitude": 42.367169,
+      "timeZone": "America/New_York",
+      "neighborhoodId": "2968",
+      "neighborhoodName": "Boston Logan International Airport (BOS) - Chelsea - Revere",
+      "cityId": 3000008602,
+      "zoneId": "3993"
+    },
+    "images": [
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566132.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566132.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/143/14350594.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/143/14350594.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/143/14350711.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/143/14350711.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/215/21506620.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/215/21506620.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471228.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471228.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471231.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471231.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471232.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471232.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471233.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471233.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471235.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471235.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471238.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471238.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471863.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471863.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46471873.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46471873.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46473129.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46473129.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46473133.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46473133.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46473134.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46473134.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46473137.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46473137.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46473496.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46473496.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46474370.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46474370.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46474376.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46474376.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46474377.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46474377.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46474383.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46474383.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/464/46474384.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/464/46474384.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566067.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566067.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566072.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566072.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566093.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566093.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566103.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566103.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566111.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566111.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566123.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566123.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566128.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566128.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566137.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566137.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46566728.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46566728.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      },
+      {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/465/46567413.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/465/46567413.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }
+    ],
+    "thumbnailUrl": "http://mobileimg.priceline.com/htlimg/39/39527/thumbnail-150-square.jpg",
+    "policies": {
+      "checkInTime": "03:00 PM",
+      "checkOutTime": "12:00 PM",
+      "petDescription": "Pets Allowed. Max Size 75 LBS. Non-refundable 50.00 pet fee required. Bed and Bowls Limited",
+      "importantInfo": [
+        "Upon check-in photo identification and credit card is required. All special requests are subject to availability upon check-in. Special requests cannot be guaranteed and may incur additional charges.Please note that the swimming pool will be closed from 1 February 2016 to 10 March 2016. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply."
+      ]
+    },
+    "hotelFeatures": {
+      "features": [
+        "24-hour security",
+        "Air conditioning",
+        "Air conditioning individually controlled in room",
+        "Alarm clock",
+        "ATM/Cash machine",
+        "Business center",
+        "Cable television",
+        "Child programs",
+        "CNN available",
+        "Coffee shop",
+        "Complimentary coffee in lobby",
+        "Complimentary in-room coffee or tea",
+        "Concierge desk",
+        "Conference facilities",
+        "Currency exchange",
+        "Desk with electrical outlet",
+        "Executive floor",
+        "Exercise gym",
+        "Express check-in",
+        "Express check-out",
+        "Fire safety compliant",
+        "Fitness center on-site",
+        "Free airport shuttle",
+        "Full american breakfast",
+        "Gift/News stand",
+        "Hairdryer",
+        "Heated guest rooms",
+        "High speed internet access fee",
+        "Indoor pool",
+        "Interior corridors",
+        "Iron",
+        "Ironing board",
+        "Jacuzzi",
+        "Late check-out available",
+        "Laundry/Valet service",
+        "Lobby coffee service",
+        "Meeting rooms",
+        "Non-smoking",
+        "Non-smoking rooms (generic)",
+        "On-site business center",
+        "On-site business center is staffed",
+        "On-Site parking",
+        "Parking",
+        "Parking lot",
+        "Pets allowed",
+        "Photocopy center",
+        "Pool",
+        "Public address system",
+        "Public area air conditioned",
+        "Remote control television",
+        "Safe deposit box",
+        "Secured parking",
+        "Security",
+        "Telephone jack adaptor available",
+        "Valet cleaning",
+        "Valet parking ",
+        "Voice mail",
+        "Whirlpool"
+      ],
+      "hotelAmenities": [
+        {
+          "code": "PETALLOW",
+          "name": "Pets Allowed",
+          "type": "PET",
+          "free": false,
+          "displayable": true,
+          "filterable": true
+        },
+        {
+          "code": "SPOOLIN",
+          "name": "Indoor Swimming Pool",
+          "type": "POOL",
+          "free": false,
+          "displayable": true,
+          "filterable": false
+        },
+        {
+          "code": "FITSPA",
+          "name": "Fitness Center",
+          "type": "FITNESS",
+          "free": false,
+          "displayable": true,
+          "filterable": true
+        },
+        {
+          "code": "AIRSHUTTL",
+          "name": "Airport Shuttle",
+          "type": "SHUTTLE",
+          "free": false,
+          "displayable": true,
+          "filterable": true
+        },
+        {
+          "code": "BUSCNTR",
+          "name": "Business Center",
+          "type": "BUSINESS",
+          "free": false,
+          "displayable": true,
+          "filterable": true
+        },
+        {
+          "code": "NSMKFAC",
+          "name": "No Smoking Rooms/Facilities",
+          "type": "SMOKING",
+          "free": false,
+          "displayable": true,
+          "filterable": true
+        },
+        {
+          "code": "SPOOL",
+          "name": "Swimming Pool",
+          "type": "POOL",
+          "free": false,
+          "displayable": false,
+          "filterable": true
+        }
+      ],
+      "highlightedAmenities": [
+        "SPOOL",
+        "PETALLOW",
+        "AIRSHUTTL"
+      ],
+      "topAmenities": [
+        "Indoor pool",
+        "Exercise gym",
+        "On-site business center",
+        "Pets allowed",
+        "Non-smoking rooms (generic)",
+        "Parking",
+        "Free airport shuttle",
+        "Cable television",
+        "Hairdryer",
+        "Full american breakfast"
+      ]
+    },
+    "overallGuestRating": 8.3,
+    "totalReviewCount": 263,
+    "guestReviewGdsName": "PCLN",
+    "ratings": [
+      {
+        "score": 8.5,
+        "category": "Staff"
+      },
+      {
+        "score": 8.800000190734863,
+        "category": "Cleanliness"
+      },
+      {
+        "score": 9.199999809265137,
+        "category": "Location"
+      },
+      {
+        "score": 7.599999904632568,
+        "category": "Dining"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Convenient for air travel from Logan."
+      },
+      {
+        "text": "Clean and comfortable rooms."
+      },
+      {
+        "text": "Friendly, unpretentious, and courteous staff."
+      }
+    ],
+    "chainCode": "HH",
+    "nearbyAttractions": [
+      {
+        "itemName": "Freedom Trail",
+        "id": "20300",
+        "type": "ATTRACTION",
+        "lat": 42.35512161254883,
+        "lon": -71.06333923339844,
+        "proximity": 2.2,
+        "link": "/travelguides/attractions/Freedom_Trail_Boston_Massachusetts_United_States-20300.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }
+    ],
+    "nearbyRestaurants": [
+      {
+        "itemName": "Jevelis Restaurant",
+        "id": "36930",
+        "lat": 42.37934875488281,
+        "lon": -71.02777099609375,
+        "proximity": 0.9,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Lasumma Restaurant",
+        "id": "68120",
+        "lat": 42.36445236206055,
+        "lon": -71.05252075195312,
+        "proximity": 1.5,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "5 North Square Inc",
+        "id": "55740",
+        "lat": 42.36369323730469,
+        "lon": -71.05352783203125,
+        "proximity": 1.6,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Giacomo's",
+        "id": "10830",
+        "lat": 42.36473846435547,
+        "lon": -71.05345916748047,
+        "proximity": 1.6,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Bertucci's",
+        "id": "10850",
+        "lat": 42.35919952392578,
+        "lon": -71.05549621582031,
+        "proximity": 1.7,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Durgin-Park Inc",
+        "id": "36900",
+        "lat": 42.36016082763672,
+        "lon": -71.05436706542969,
+        "proximity": 1.7,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "McCormick & Schmick's",
+        "id": "10620",
+        "lat": 42.36064910888672,
+        "lon": -71.05474853515625,
+        "proximity": 1.7,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Sage Restaurant",
+        "id": "36940",
+        "lat": 42.3651237487793,
+        "lon": -71.0552978515625,
+        "proximity": 1.7,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Chacarero",
+        "id": "1265839",
+        "lat": 42.35717010498047,
+        "lon": -71.05976104736328,
+        "proximity": 2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      },
+      {
+        "itemName": "Chacarero",
+        "id": "1265849",
+        "lat": 42.3548583984375,
+        "lon": -71.05858612060547,
+        "proximity": 2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }
+    ],
+    "allInclusiveRateProperty": false,
+    "recentlyViewed": false,
+    "dealUnwrapable": false
+  },
+  "los": 1,
+  "numRooms": 1,
+  "skey": "1EF399P1DPTCRQQGU2A77XZ58GX|1466782574118",
+  "areaInfo": {
+    "cityId": 3000008602,
+    "regionId": 26,
+    "opqHotelCountInRegion": 191,
+    "samedayOpqHotelCountInRegion": 191
+  }
+}
