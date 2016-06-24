@@ -2,10 +2,8 @@
 
 # i-feel-lucky-desktop-ui
 
-> website url: https://wukong-bittiger.herokuapp.com
-
+> website url: http://autobot:3030
 > code style
-
 > - [ES5: Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/master/es5)
 
 
