@@ -1,12 +1,17 @@
 $(function() {
   // Helper function
-  function buildDate(dataStr) {
+  function buildDate(dataStr, moreDates) {
     if (!dataStr) {
       var date = new Date();
       var year = date.getFullYear().toString(10);
       var month = (parseInt(date.getMonth(), 10) + 1) % 12 + 1;
       month = month < 10 ? '0' + month : month;
-      var day = date.getDate().toString(10);
+      var day = (parseInt(date.getDate(), 10));
+      if (moreDates) {
+        // TODO: Not totally right
+        day = (day + moreDates) % 30 + 1;
+      }
+      day = day < 10 ? '0' + day : day;
       return year + month + day;
     }
 
@@ -22,7 +27,7 @@ $(function() {
     }
     var cguid = 'cguid=test1002';
     var checkIn = 'check-in=' + buildDate($('#check-in-input').val());
-    var checkOut = 'check-out=' + buildDate($('#check-out-input').val());
+    var checkOut = 'check-out=' + buildDate($('#check-out-input').val(), 1);
     var currency = 'currency=USD';
     var responseOptions = 'response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS';
     var roomsSelect = 'rooms=' + $('#rooms-select').val();
@@ -361,7 +366,7 @@ $(function() {
   });
 
   $('#check-in-input').datepicker({ minDate: 0 });
-  $('#check-out-input').datepicker({ minDate: 0 });
+  $('#check-out-input').datepicker({ minDate: 1 });
 
   // Init type ahead
   $('#where-are-you-going-input').autocomplete({
