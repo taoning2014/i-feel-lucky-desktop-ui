@@ -1,6 +1,6 @@
 <div id="hotel-search">
   <h3 id="search-and-save-on-h">Search and Save on Hotels</h3>
-  <form id="hotel-search-form" name="hotel-search-form" action="" method="post"
+  <form id="hotel-search-form" name="hotel-search-form" action="/test" method="get"
         class="label-font-overwrite input-font-overwrite">
     <div class="form-group">
       <label for="where-are-you-going-input">Where are you going</label>
@@ -22,35 +22,34 @@
 
       <div class="form-group col-md-3">
         <label id="rooms-label" for=rooms-input">Rooms </label>
-        <select id="rooms-input" class="form-control">
-          <option>1 Rooms</option>
-          <option>2 Rooms</option>
-          <option>3 Rooms</option>
-          <option>4 Rooms</option>
-          <option>5 Rooms</option>
-          <option>6 Rooms</option>
-          <option>7 Rooms</option>
-          <option>8 Rooms</option>
-          <option>9 Rooms</option>
-          <option>10+ Rooms</option>
+        <select id="rooms-select" class="form-control">
+          <option value="1">1 Rooms</option>
+          <option value="2">2 Rooms</option>
+          <option value="3">3 Rooms</option>
+          <option value="4">4 Rooms</option>
+          <option value="5">5 Rooms</option>
+          <option value="6">6 Rooms</option>
+          <option value="7">7 Rooms</option>
+          <option value="8">8 Rooms</option>
+          <option value="9">9 Rooms</option>
+          <option value="10+">10+ Rooms</option>
         </select>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-4">
-        <button type="submit" id="hotel-search-form-submit" class="btn btn-success btn-block" value="submit">Search
+        <button type="button" id="hotel-search-form-submit-btn" class="btn btn-success btn-block" value="search">Search
           Hotels
         </button>
       </div>
       <div class="col-md-5">
         <div class="dropdown">
-          <button type="submit" id="hotel-search-form-lucky-submit-btn"
-                  class="btn btn-primary btn-block dropdown-togglen" type="button" data-toggle="dropdown">
+          <button type="button" id="hotel-search-form-lucky-submit-btn"
+                  class="btn btn-primary btn-block dropdown-togglen" data-toggle="dropdown" value="">
             I'm Feeling...
             <span class="glyphicon glyphicon-menu-down" style="float:right"></span>
           </button>
-
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"
               style="width:100%; background-color:#f2f2f2; color: #0a84c1;">
             <li><a class="feeling-option" href="#">Romantic</a></li>

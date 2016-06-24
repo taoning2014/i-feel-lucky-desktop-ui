@@ -18,4 +18,8 @@ router.get('/404.html', function(req, res) {
   res.send('At 404 page, to be deliver.');
 });
 
+router.get('/test', function(req, res) {
+  res.send('Success!');
+});
+
 module.exports = router;

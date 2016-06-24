@@ -1,4 +1,32 @@
 $(function() {
+  // Helper function
+  function buildDate(dataStr) {
+    if (!dataStr) {
+      var date = new Date();
+      var year = date.getFullYear().toString(10);
+      var month = (parseInt(date.getMonth(), 10) + 1) % 12 + 1;
+      month = month < 10 ? '0' + month : month;
+      var day = date.getDate().toString(10);
+      return  year + month + day;
+    }
+
+    return dataStr.split('/')[2] + dataStr.split('/')[0] + dataStr.split('/')[1];
+  }
+
+  function buildQueryParams() {
+    var citysearchterm = 'citysearchterm=' + $('#where-are-you-going-input').val();
+    var cguid = 'cguid=test1002';
+    var checkIn = 'check-in=' + buildDate($('#check-in-input').val());
+    var checkOut = 'check-out=' + buildDate($('#check-out-input').val());
+    var currency = 'currency=USD';
+    var responseOptions = 'response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS';
+    var roomsSelect = 'rooms=' + $('#rooms-select').val();
+    var productTypes = 'product-types=RTL';
+    var result = '?' + citysearchterm + '&' + cguid + '&' + checkIn + '&' + checkOut + '&' + currency +
+      '&' + responseOptions + '&' + roomsSelect + '&' + productTypes;
+    return encodeURI(result);
+  }
+
   // Type ahead
   var usCities =
     [
@@ -279,13 +307,13 @@ $(function() {
       'Temecula, California'
     ];
 
-  // === Begin state of the lucky button ===
+  // Different state of lucky button
   var isLuckySelected = false;
 
   $('#where-are-you-going-input').keyup(function() {
     if ($(this).val() !== '') {
       isLuckySelected = true;
-      $('#hotel-search-form-lucky-submit-btn').text('I\'m Feeling Lucky');
+      $('#hotel-search-form-lucky-submit-btn').text('I\'m Feeling Lucky').val('Lucky');
     } else {
       isLuckySelected = false;
       $('#hotel-search-form-lucky-submit-btn').html('I\'m Feeling... <span class="glyphicon glyphicon-menu-down" style="float:right"></span>');
@@ -305,19 +333,22 @@ $(function() {
   $('#hotel-search-form-lucky-submit-btn').click(function() {
     if (isLuckySelected) {
       $('div.dropdown').removeClass('open');
-      console.log('TODO Submit');
+      // build url
+      var queryParams = buildQueryParams();
+      var EXPRESSAPI = '/test';
+//      console.log('Debug: ' + EXPRESSAPI + queryParams);
+      window.location = EXPRESSAPI + queryParams;
     }
   });
 
   $('.feeling-option').click(function() {
     isLuckySelected = true;
-    var btnInfo = 'I\'m Feeling ' + $(this).text();
-    $('#hotel-search-form-lucky-submit-btn').text(btnInfo);
+    var optionInfo = $(this).text();
+    var btnInfo = 'I\'m Feeling ' + optionInfo;
+    $('#hotel-search-form-lucky-submit-btn').text(btnInfo).val(optionInfo);
   });
 
-  // === End state of the lucky button ===
-
-  // Hide the opening picker when user scroll
+  // Hide the opening pickers when user scroll
   $(window).scroll(function() {
     $('div.dropdown').removeClass('open');
     $('#ui-datepicker-div').hide();
@@ -326,9 +357,11 @@ $(function() {
   $('#check-in-input').datepicker();
   $('#check-out-input').datepicker();
 
-
+  // Init type ahead
   $('#where-are-you-going-input').autocomplete({
     source: usCities
   });
+
+
 });
 
