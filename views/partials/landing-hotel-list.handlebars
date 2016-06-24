@@ -11,19 +11,21 @@
     {{#each hotels.hotels}}
       <div class="product clearfix">
 
-          <div class="product-image" style="height: auto">
-            {{#each imgs}}
-              <a href="#"><img src="images/i-feel-lucky-desktop-ui/{{this}}" alt="Checked Short Dress" style="height: auto"></a>
-            {{/each}}
-            {{#if discount}}
-              <div class="sale-flash">{{discount}}</div>
-            {{/if}}
-            <div class="product-overlay">
-              <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Book It</span></a>
-              <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i
-                      class="icon-zoom-in2"></i><span> Detail</span></a>
-            </div>
+        <div class="product-image" style="height: auto">
+          {{#each imgs}}
+            <a href="#"><img src="images/i-feel-lucky-desktop-ui/{{this}}" alt="Checked Short Dress"
+                             style="height: auto"></a>
+          {{/each}}
+          {{#if discount}}
+            <div class="sale-flash">{{discount}}</div>
+          {{/if}}
+          <div class="product-overlay">
+            <a href="#" class="add-to-cart"><i class="icon-suitcase"></i><span> Book It</span></a>
+            <!--<a href="#" class="item-quick-view" data-lightbox="ajax"><i-->
+            <!--class="icon-zoom-in2"></i><span> Detail</span></a>-->
+            <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Detail</span></a>
           </div>
+        </div>
 
         <div class="product-desc">
           <div class="product-title"><h3><a href="#">{{hotelName}}</a></h3></div>
