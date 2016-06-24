@@ -24,9 +24,9 @@ $(function() {
       firstParam = 'citysearchterm=' + $('#where-are-you-going-input').val();
     } else {
 
-      firstParam = 'citysearchterm=boston';
+//      firstParam = 'citysearchterm=boston';
 //      howareyoufeeling is not ready, so use to avoid server crash
-//      firstParam = 'howareyoufeeling=' + $('#hotel-search-form-lucky-submit-btn').val().toUpperCase();
+      firstParam = 'howareyoufeeling=' + $('#hotel-search-form-lucky-submit-btn').val().toUpperCase();
     }
     var cguid = 'cguid=test1002';
     var checkIn = 'check-in=' + buildDate($('#check-in-input').val());
