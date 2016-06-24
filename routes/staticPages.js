@@ -38,9 +38,10 @@ router.get('/lucky', function(req, res) {
         throw new Error('Didn\'t got backend data');
       }
       console.log('Success hit backend, got respond.');
-      hotelImages = respond.hotel.images.slice(10, 15);
+      console.log(respond.text);
+      hotelImages = JSON.parse(respond.text).hotel.images.slice(10, 15);
       res.render('pages/detail', {
-        hotel: respond.hotel,
+        hotel: JSON.parse(respond.text).hotel,
         hotelImages: hotelImages
       });
     });
