@@ -13,8 +13,13 @@ $(function() {
     return dataStr.split('/')[2] + dataStr.split('/')[0] + dataStr.split('/')[1];
   }
 
-  function buildQueryParams() {
-    var citysearchterm = 'citysearchterm=' + $('#where-are-you-going-input').val();
+  function buildQueryParams(feeling) {
+    var firstParam;
+    if (feeling === 'Lucky') {
+      firstParam = 'citysearchterm=' + $('#where-are-you-going-input').val();
+    } else {
+      firstParam = 'howareyoufeeling=' + $('#hotel-search-form-lucky-submit-btn').val().toUpperCase();
+    }
     var cguid = 'cguid=test1002';
     var checkIn = 'check-in=' + buildDate($('#check-in-input').val());
     var checkOut = 'check-out=' + buildDate($('#check-out-input').val());
@@ -22,7 +27,7 @@ $(function() {
     var responseOptions = 'response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS';
     var roomsSelect = 'rooms=' + $('#rooms-select').val();
     var productTypes = 'product-types=RTL';
-    var result = '?' + citysearchterm + '&' + cguid + '&' + checkIn + '&' + checkOut + '&' + currency +
+    var result = '?' + firstParam + '&' + cguid + '&' + checkIn + '&' + checkOut + '&' + currency +
       '&' + responseOptions + '&' + roomsSelect + '&' + productTypes;
     return encodeURI(result);
   }
@@ -333,9 +338,10 @@ $(function() {
   $('#hotel-search-form-lucky-submit-btn').click(function() {
     if (isLuckySelected) {
       $('div.dropdown').removeClass('open');
-      // build url
-      var queryParams = buildQueryParams();
+      // Build url
       var EXPRESSAPI = '/test';
+      var feeling = $('#hotel-search-form-lucky-submit-btn').val();
+      var queryParams = buildQueryParams(feeling);
 //      console.log('Debug: ' + EXPRESSAPI + queryParams);
       window.location = EXPRESSAPI + queryParams;
     }
