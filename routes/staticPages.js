@@ -11,7 +11,7 @@ router.get(/^\/(index(.html)?)?$/, function(req, res) {
 });
 
 router.get('/detail.html', function(req, res) {
-  var hotelImages = hotelDetailData.hotel.images.slice(10, 15);
+  var hotelImages = hotelDetailData.hotel.images && hotelDetailData.hotel.images.slice(10, 15);
   res.render('pages/detail', {
     hotel: hotelDetailData.hotel,
     hotelImages: hotelImages
@@ -40,7 +40,7 @@ router.get('/lucky', function(req, res) {
       }
       console.log('Success hit backend, got respond.');
       console.log(respond.text);
-      hotelImages = JSON.parse(respond.text).hotel.images.slice(10, 15);
+      hotelImages = JSON.parse(respond.text).hotel.images && JSON.parse(respond.text).hotel.images.slice(10, 15);
       res.render('pages/detail', {
         hotel: JSON.parse(respond.text).hotel,
         hotelImages: hotelImages
