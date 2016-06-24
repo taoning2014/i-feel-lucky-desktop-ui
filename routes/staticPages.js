@@ -10,7 +10,11 @@ router.get(/^\/(index(.html)?)?$/, function(req, res) {
 });
 
 router.get('/detail.html', function(req, res) {
-  res.render('pages/detail', { hotel: hotelDetailData.hotel });
+  var hotelImages = hotelDetailData.hotel.images.slice(10, 15);
+  res.render('pages/detail', {
+    hotel: hotelDetailData.hotel,
+    hotelImages: hotelImages
+  });
 });
 
 router.get('/checkout.html', function(req, res) {

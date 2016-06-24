@@ -10,9 +10,13 @@
         <div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true">
           <div class="flexslider">
             <div class="slider-wrap" data-lightbox="gallery">
-              <div class="slide" data-thumb="images/shop/thumbs/dress/3.jpg"><a href="images/shop/dress/3.jpg" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="images/shop/dress/3.jpg" alt="Pink Printed Dress"></a></div>
-              <div class="slide" data-thumb="images/shop/thumbs/dress/3-1.jpg"><a href="images/shop/dress/3-1.jpg" title="Pink Printed Dress - Side View" data-lightbox="gallery-item"><img src="images/shop/dress/3-1.jpg" alt="Pink Printed Dress"></a></div>
-              <div class="slide" data-thumb="images/shop/thumbs/dress/3-2.jpg"><a href="images/shop/dress/3-2.jpg" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="images/shop/dress/3-2.jpg" alt="Pink Printed Dress"></a></div>
+              {{#each hotelImages}}
+                <div class="slide" data-thumb={{this.imageUrl}}>
+                  <a href="{{this.imageUrl}}" title={{this.description}} data-lightbox="gallery-item">
+                    <img src={{this.imageUrl}} alt={{this.description}}>
+                  </a>
+                </div>
+              {{/each}}
             </div>
           </div>
         </div>
@@ -25,7 +29,10 @@
 
       <!-- Product Single - Price
                       ============================================= -->
-      <div class="product-price"><del>$39.99</del> <ins>$24.99</ins></div><!-- Product Single - Price End -->
+      <div class="product-price">
+        <del>$189.99</del>
+        <ins>$124.99</ins>
+      </div><!-- Product Single - Price End -->
 
       <!-- Product Single - Rating
                       ============================================= -->
@@ -33,7 +40,7 @@
         <i class="icon-star3"></i>
         <i class="icon-star3"></i>
         <i class="icon-star3"></i>
-        <i class="icon-star-half-full"></i>
+        <i class="icon-star3"></i>
         <i class="icon-star-empty"></i>
       </div><!-- Product Single - Rating End -->
 
@@ -43,12 +50,7 @@
       <!-- Product Single - Quantity & Cart Button
                       ============================================= -->
       <form class="cart nobottommargin clearfix" method="post" enctype='multipart/form-data'>
-        <div class="quantity clearfix">
-          <input type="button" value="-" class="minus">
-          <input type="text" step="1" min="1"  name="quantity" value="1" title="Qty" class="qty" size="4" />
-          <input type="button" value="+" class="plus">
-        </div>
-        <button type="submit" class="add-to-cart button nomargin">Add to cart</button>
+        <button type="submit" class="add-to-cart button nomargin">Check Out</button>
       </form><!-- Product Single - Quantity & Cart Button End -->
 
       <div class="clear"></div>
@@ -56,21 +58,26 @@
 
       <!-- Product Single - Short Description
                       ============================================= -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero velit id eaque ex quae laboriosam nulla optio doloribus! Perspiciatis, libero, neque, perferendis at nisi optio dolor!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero velit id eaque ex quae laboriosam nulla optio
+        doloribus! Perspiciatis, libero, neque, perferendis at nisi optio dolor!</p>
       <p>Perspiciatis ad eveniet ea quasi debitis quos laborum eum reprehenderit eaque explicabo assumenda rem modi.</p>
       <ul class="iconlist">
-        <li><i class="icon-caret-right"></i> Dynamic Color Options</li>
-        <li><i class="icon-caret-right"></i> Lots of Size Options</li>
-        <li><i class="icon-caret-right"></i> 30-Day Return Policy</li>
+        <li><i class="icon-caret-right"></i> 24-hour security</li>
+        <li><i class="icon-caret-right"></i> Air conditioning</li>
+        <li><i class="icon-caret-right"></i> Late check-out available</li>
       </ul><!-- Product Single - Short Description End -->
 
       <!-- Product Single - Meta
                       ============================================= -->
       <div class="panel panel-default product-meta">
         <div class="panel-body">
-          <span itemprop="productID" class="sku_wrapper">SKU: <span class="sku">8465415</span></span>
-          <span class="posted_in">Category: <a href="#" rel="tag">Dress</a>.</span>
-          <span class="tagged_as">Tags: <a href="#" rel="tag">Pink</a>, <a href="#" rel="tag">Short</a>, <a href="#" rel="tag">Dress</a>, <a href="#" rel="tag">Printed</a>.</span>
+          {{#each hotel.location.address}}
+            <span>
+              <span style="text-transform: uppercase;">{{@key}}: </span>
+              <span>{{this}}</span>
+            </span>
+
+          {{/each}}
         </div>
       </div><!-- Product Single - Meta End -->
 
@@ -110,7 +117,8 @@
 
     <div class="col_one_fifth col_last">
 
-      <a href="#" title="Brand Logo" class="hidden-xs"><img class="image_fade" src="images/shop/brand.jpg" alt="Brand Logo"></a>
+      <a href="#" title="Brand Logo" class="hidden-xs"><img class="image_fade" src="images/shop/brand.jpg"
+                                                            alt="Brand Logo"></a>
 
       <div class="divider divider-center"><i class="icon-circle-blank"></i></div>
 
@@ -118,8 +126,8 @@
         <div class="fbox-icon">
           <i class="icon-thumbs-up2"></i>
         </div>
-        <h3>100% Original</h3>
-        <p class="notopmargin">We guarantee you the sale of Original Brands.</p>
+        <h3>24-hour security</h3>
+        <p class="notopmargin">We guarantee you and your family be safe here.</p>
       </div>
 
       <div class="feature-box fbox-plain fbox-dark fbox-small">
@@ -134,16 +142,16 @@
         <div class="fbox-icon">
           <i class="icon-truck2"></i>
         </div>
-        <h3>Free Shipping</h3>
-        <p class="notopmargin">Free Delivery to 100+ Locations on orders above $40.</p>
+        <h3>Free shuttle</h3>
+        <p class="notopmargin">Free shuttle to 100+ Locations.</p>
       </div>
 
       <div class="feature-box fbox-plain fbox-dark fbox-small">
         <div class="fbox-icon">
           <i class="icon-undo"></i>
         </div>
-        <h3>30-Days Returns</h3>
-        <p class="notopmargin">Return or exchange items purchased within 30 days.</p>
+        <h3>100% Refundable</h3>
+        <p class="notopmargin">100% Refund before 7 days.</p>
       </div>
 
     </div>
@@ -154,7 +162,8 @@
 
         <ul class="tab-nav clearfix">
           <li><a href="#tabs-1"><i class="icon-align-justify2"></i><span class="hidden-xs"> Description</span></a></li>
-          <li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="hidden-xs"> Additional Information</span></a></li>
+          <li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="hidden-xs"> Additional Information</span></a>
+          </li>
           <li><a href="#tabs-3"><i class="icon-star3"></i><span class="hidden-xs"> Reviews (2)</span></a></li>
         </ul>
 
@@ -196,13 +205,18 @@
                     <div class="comment-meta">
                       <div class="comment-author vcard">
 																	<span class="comment-avatar clearfix">
-																	<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' height='60' width='60' /></span>
+																	<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60'
+                                       height='60' width='60'/></span>
                       </div>
                     </div>
 
                     <div class="comment-content clearfix">
-                      <div class="comment-author">John Doe<span><a href="#" title="Permalink to this comment">April 24, 2014 at 10:46AM</a></span></div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo perferendis aliquid tenetur. Aliquid, tempora, sit aliquam officiis nihil autem eum at repellendus facilis quaerat consequatur commodi laborum saepe non nemo nam maxime quis error tempore possimus est quasi reprehenderit fuga!</p>
+                      <div class="comment-author">John Doe<span><a href="#" title="Permalink to this comment">April 24,
+                        2014 at 10:46AM</a></span></div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo perferendis aliquid tenetur.
+                        Aliquid, tempora, sit aliquam officiis nihil autem eum at repellendus facilis quaerat
+                        consequatur commodi laborum saepe non nemo nam maxime quis error tempore possimus est quasi
+                        reprehenderit fuga!</p>
                       <div class="review-comment-ratings">
                         <i class="icon-star3"></i>
                         <i class="icon-star3"></i>
@@ -223,13 +237,18 @@
                     <div class="comment-meta">
                       <div class="comment-author vcard">
 																	<span class="comment-avatar clearfix">
-																	<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' height='60' width='60' /></span>
+																	<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60'
+                                       height='60' width='60'/></span>
                       </div>
                     </div>
 
                     <div class="comment-content clearfix">
-                      <div class="comment-author">Mary Jane<span><a href="#" title="Permalink to this comment">June 16, 2014 at 6:00PM</a></span></div>
-                      <p>Quasi, blanditiis, neque ipsum numquam odit asperiores hic dolor necessitatibus libero sequi amet voluptatibus ipsam velit qui harum temporibus cum nemo iste aperiam explicabo fuga odio ratione sint fugiat consequuntur vitae adipisci delectus eum incidunt possimus tenetur excepturi at accusantium quod doloremque reprehenderit aut expedita labore error atque?</p>
+                      <div class="comment-author">Mary Jane<span><a href="#" title="Permalink to this comment">June 16,
+                        2014 at 6:00PM</a></span></div>
+                      <p>Quasi, blanditiis, neque ipsum numquam odit asperiores hic dolor necessitatibus libero sequi
+                        amet voluptatibus ipsam velit qui harum temporibus cum nemo iste aperiam explicabo fuga odio
+                        ratione sint fugiat consequuntur vitae adipisci delectus eum incidunt possimus tenetur excepturi
+                        at accusantium quod doloremque reprehenderit aut expedita labore error atque?</p>
                       <div class="review-comment-ratings">
                         <i class="icon-star3"></i>
                         <i class="icon-star3"></i>
@@ -250,7 +269,8 @@
                                       ============================================= -->
               <button class="btn btn-primary">Add a Review</button>
 
-              <div class="modal fade" id="reviewFormModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+              <div class="modal fade" id="reviewFormModal" tabindex="-1" role="dialog"
+                   aria-labelledby="reviewFormModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -258,21 +278,28 @@
                       <h4 class="modal-title" id="reviewFormModalLabel">Submit a Review</h4>
                     </div>
                     <div class="modal-body">
-                      <form class="nobottommargin" id="template-reviewform" name="template-reviewform" action="#" method="post">
+                      <form class="nobottommargin" id="template-reviewform" name="template-reviewform" action="#"
+                            method="post">
 
                         <div class="col_half">
-                          <label for="template-reviewform-name">Name <small>*</small></label>
+                          <label for="template-reviewform-name">Name
+                            <small>*</small>
+                          </label>
                           <div class="input-group">
                             <span class="input-group-addon"><i class="icon-user"></i></span>
-                            <input type="text" id="template-reviewform-name" name="template-reviewform-name" value="" class="form-control required" />
+                            <input type="text" id="template-reviewform-name" name="template-reviewform-name" value=""
+                                   class="form-control required"/>
                           </div>
                         </div>
 
                         <div class="col_half col_last">
-                          <label for="template-reviewform-email">Email <small>*</small></label>
+                          <label for="template-reviewform-email">Email
+                            <small>*</small>
+                          </label>
                           <div class="input-group">
                             <span class="input-group-addon">@</span>
-                            <input type="email" id="template-reviewform-email" name="template-reviewform-email" value="" class="required email form-control" />
+                            <input type="email" id="template-reviewform-email" name="template-reviewform-email" value=""
+                                   class="required email form-control"/>
                           </div>
                         </div>
 
@@ -280,7 +307,8 @@
 
                         <div class="col_full col_last">
                           <label for="template-reviewform-rating">Rating</label>
-                          <select id="template-reviewform-rating" name="template-reviewform-rating" class="form-control">
+                          <select id="template-reviewform-rating" name="template-reviewform-rating"
+                                  class="form-control">
                             <option value="">-- Select One --</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -293,12 +321,17 @@
                         <div class="clear"></div>
 
                         <div class="col_full">
-                          <label for="template-reviewform-comment">Comment <small>*</small></label>
-                          <textarea class="required form-control" id="template-reviewform-comment" name="template-reviewform-comment" rows="6" cols="30"></textarea>
+                          <label for="template-reviewform-comment">Comment
+                            <small>*</small>
+                          </label>
+                          <textarea class="required form-control" id="template-reviewform-comment"
+                                    name="template-reviewform-comment" rows="6" cols="30"></textarea>
                         </div>
 
                         <div class="col_full nobottommargin">
-                          <button class="button button-3d nomargin" type="submit" id="template-reviewform-submit" name="template-reviewform-submit" value="submit">Submit Review</button>
+                          <button class="button button-3d nomargin" type="submit" id="template-reviewform-submit"
+                                  name="template-reviewform-submit" value="submit">Submit Review
+                          </button>
                         </div>
 
                       </form>
