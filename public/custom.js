@@ -7,7 +7,7 @@ $(function() {
       var month = (parseInt(date.getMonth(), 10) + 1) % 12 + 1;
       month = month < 10 ? '0' + month : month;
       var day = date.getDate().toString(10);
-      return  year + month + day;
+      return year + month + day;
     }
 
     return dataStr.split('/')[2] + dataStr.split('/')[0] + dataStr.split('/')[1];
@@ -354,8 +354,8 @@ $(function() {
     $('#ui-datepicker-div').hide();
   });
 
-  $('#check-in-input').datepicker();
-  $('#check-out-input').datepicker();
+  $('#check-in-input').datepicker({ minDate: 0 });
+  $('#check-out-input').datepicker({ minDate: 0 });
 
   // Init type ahead
   $('#where-are-you-going-input').autocomplete({
