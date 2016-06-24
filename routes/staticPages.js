@@ -4,7 +4,7 @@ var landingHotelData = require('../data/landing-list-hotels.json');
 var hotelDetailData = require('../data/hotel-detail.json');
 var router = express.Router();
 //var SERVERURL = 'http://nw-hrapi-q04:8080/htlrapi/hotels/v0';
-var SERVERURL = 'http://nw-hrapi-d02:8080/htlrapi/hotels/v0';
+var SERVERURL = 'http://nw-hrapi-q03:8080/htlrapi/hotels/v0';
 
 router.get(/^\/(index(.html)?)?$/, function(req, res) {
   res.render('pages/landing', { hotels: landingHotelData });
