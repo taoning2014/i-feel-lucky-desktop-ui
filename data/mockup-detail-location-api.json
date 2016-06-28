@@ -1,0 +1,3429 @@
+{
+  "Baltimore": {
+    "resultCode": 200,
+    "resultMessage": "SUCCESS",
+    "duration": 1314,
+    "version": "4.2.26-SNAPSHOT",
+    "rguid": "d08688423d3411e681c5005056ba68ba",
+    "src": "Q03",
+    "hotel": {
+      "hotelId": "49417",
+      "name": "Baltimore Harbor Hotel",
+      "brand": "Independent",
+      "brandId": "0",
+      "description": "In the center of the action with 360-degree views of the city skyline and an outdoor pool, the non-smoking Baltimore Harbor Hotel is a smart choice for Priceline guests. The 27-story tower houses 323 non-smoking rooms with high ceilings, desks with ample lighting and high-end ergonomic chairs, free Wi-Fi and wired internet connections and flat-panel HDTVs that you can enjoy while lounging on pillowtop beds. A free continental breakfast is served daily. The seasonal outdoor pool and sun deck, open during the summer months, are a hit with kids. There's also a roomy fitness center where the cardio machines have great vistas through floor-to-ceiling windows. Everything is within walking distance from the hotel, including the Inner Harbor, National Aquarium, 1st Mariner Arena, the Baltimore Convention Center and Johns Hopkins University. Plenty of dining options are just outside the front door. Amtrak's Penn Station is a mile north, and Baltimore/Washington Thurgood Marshall International Airport is 10 miles south. Baltimore Harbor Hotel also boasts a central location and a host of convenient amenities. ",
+      "hotelVirtualTourURL": "http://iceportal.com/brochures/ice/brochure.aspx?did=2507&brochureid=49417",
+      "starRating": 3,
+      "propertyTypeId": 204,
+      "location": {
+        "address": {
+          "addressLine1": "101 West Fayette Street",
+          "cityName": "Baltimore",
+          "provinceCode": "MD",
+          "countryName": "United States",
+          "zip": "21201",
+          "phone": "410-752-1100",
+          "isoCountryCode": "US"
+        },
+        "longitude": -76.616933,
+        "latitude": 39.290344,
+        "timeZone": "America/New_York",
+        "neighborhoodId": "4450",
+        "neighborhoodName": "Downtown Baltimore",
+        "cityId": 3000008983,
+        "zoneId": "53125"
+      },
+      "images": [{
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/400/40015770.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/400/40015770.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/953/953751.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/116/11697280.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168125.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168125.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168156.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168156.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168165.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168165.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168175.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168183.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168194.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168194.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168921.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168921.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24168927.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169065.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24169065.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169241.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24169241.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/241/24169324.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/400/40016064.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/400/40016064.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/400/40016074.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/400/40016074.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117526.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117579.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117579.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117593.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117593.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117594.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117594.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117595.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117595.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117664.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117664.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41117666.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41117666.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41119403.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41119403.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41119404.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41119404.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41119410.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41119410.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/411/41119413.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/411/41119413.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/953/953749.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }],
+      "thumbnailUrl": "http://mobileimg.priceline.com/htlimg/49/49417/thumbnail-150-square.jpg",
+      "policies": {
+        "checkInTime": "03:00 PM",
+        "checkOutTime": "12:00 PM",
+        "importantInfo": [
+          "Upon check-in photo identification and credit card are required.  All special requests are subject to availability upon check-in. Special requests cannot be guaranteed and may incur additional charges. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply."
+        ]
+      },
+      "hotelFeatures": {
+        "features": [
+          "24-hour front desk",
+          "Accessible facilities",
+          "Accessible room",
+          "Adjoining rooms",
+          "Air conditioning",
+          "Air conditioning individually controlled in room",
+          "AM/FM radio",
+          "ATM/Cash machine",
+          "Business center",
+          "Car rental desk",
+          "Children welcome",
+          "Complimentary continental breakfast",
+          "Elevators",
+          "Hairdryer",
+          "Housekeeping - weekly",
+          "Interior corridors",
+          "Iron",
+          "Ironing board",
+          "Limited service housekeeping",
+          "Non-smoking rooms (generic)",
+          "On-site business center",
+          "On-Site parking",
+          "Onsite laundry",
+          "Outdoor pool",
+          "Parking",
+          "Pets allowed",
+          "Pool",
+          "Public address system",
+          "Restaurant",
+          "Safe deposit box",
+          "Security",
+          "Storage space",
+          "Wireless internet connection in public areas"
+        ],
+        "topAmenities": [
+          "Wireless internet connection in public areas",
+          "Outdoor pool",
+          "On-site business center",
+          "Pets allowed",
+          "Restaurant",
+          "Non-smoking rooms (generic)",
+          "Parking",
+          "Hairdryer",
+          "Complimentary continental breakfast"
+        ]
+      },
+      "overallGuestRating": 7.6,
+      "totalReviewCount": 587,
+      "guestReviewGdsName": "BOOKING",
+      "ratings": [{
+        "score": 8.100000381469727,
+        "category": "Staff"
+      }, {
+        "score": 7.800000190734863,
+        "category": "Cleanliness"
+      }, {
+        "score": 7.699999809265137,
+        "category": "Location"
+      }, {
+        "score": 0,
+        "category": "Dining"
+      }],
+      "quotes": [{
+        "text": "Staff was very pleasant."
+      }, {
+        "text": "Conveniently located, only a short walk to the Inner Harbor."
+      }, {
+        "text": "Comfortable bed."
+      }],
+      "rooms": [{
+        "roomId": "5879501",
+        "longDescription": "Standard Queen Room - Non-refundable - This room features cable TV and a desk. Free WiFi and a complimentary breakfast are also included.",
+        "roomDisplayName": "Standard Queen Room - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Alarm clock, Coffee machine, City view",
+        "displayableRates": [{
+          "displayPrice": "127.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "AAE6DAF4B72DFA47B9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2754,
+            "rateCategoryType": 8,
+            "originalName": "Standard Queen Room - Non-refundable",
+            "originalRoomRateDescription": "Standard Queen Room - Non-refundable - This room features cable TV and a desk. Free WiFi and a complimentary breakfast are also included.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "127.20",
+            "nativeAverageNightlyRate": "127.20",
+            "nativeNightlyRates": [
+              "127.20"
+            ],
+            "nightlyRates": [
+              "127.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "19.72",
+            "nativeTaxesAndFeePerStay": "19.72",
+            "totalPriceExcludingTaxesAndFeePerStay": "127.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "127.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "146.92",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "146.92",
+            "grandTotal": "146.92",
+            "nativeGrandTotal": "146.92",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 1,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "QUEEN",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "amenities": [
+                "FREE WIFI"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 19.72 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 Queen",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRNT",
+            "name": "Free WIFI",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879507",
+        "longDescription": "Standard Double Room with Two Double Beds - Non-refundable - This room features a flat-screen TV with cable channels and a roll in shower.",
+        "roomDisplayName": "Standard Double Room with Two Double Beds - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "promos": [{
+            "type": "DISCOUNT",
+            "title": "Smart Deal",
+            "terms": "Negotiated Specials may be limited to certain dates and subject to availability.",
+            "valueAddDesc": false,
+            "discountType": "PERCENT",
+            "discountPercentage": 0,
+            "showDiscount": false,
+            "dealType": "SMART",
+            "freeNightCumulative": false,
+            "numNightsPerFreeNight": 0,
+            "numFreeNightsGiven": 0
+          }],
+          "displayPrice": "135.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "D15CCB0020C57028B9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2945,
+            "rateCategoryType": 8,
+            "originalName": "Standard Double Room with Two Double Beds - Non-refundable",
+            "originalRoomRateDescription": "Standard Double Room with Two Double Beds - Non-refundable - This room features a flat-screen TV with cable channels and a roll in shower.",
+            "maxOccupancy": 4,
+            "pricedOccupancy": 4,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "135.20",
+            "nativeAverageNightlyRate": "135.20",
+            "nativeNightlyRates": [
+              "135.20"
+            ],
+            "nightlyRates": [
+              "135.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "20.96",
+            "nativeTaxesAndFeePerStay": "20.96",
+            "totalPriceExcludingTaxesAndFeePerStay": "135.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "135.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "156.16",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "156.16",
+            "grandTotal": "156.16",
+            "nativeGrandTotal": "156.16",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 5,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedCount": 2,
+                "bedType": "DOUBLE",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_PROMO": "<b>Negotiated Special Details:</b><li><em>Smart Deal</em>&nbsp;&#151;&nbsp;null</li><li>Offer Details:&nbsp;Negotiated Specials may be limited to certain dates and subject to availability.</li>",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 20.96 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "2 Double",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879506",
+        "longDescription": "Standard King Room - Non-refundable - This room features a work desk and a TV with cable channels.",
+        "roomDisplayName": "Standard King Room - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "135.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "370D766B8C0F76D3B9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2902,
+            "rateCategoryType": 8,
+            "originalName": "Standard King Room - Non-refundable",
+            "originalRoomRateDescription": "Standard King Room - Non-refundable - This room features a work desk and a TV with cable channels.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "135.20",
+            "nativeAverageNightlyRate": "135.20",
+            "nativeNightlyRates": [
+              "135.20"
+            ],
+            "nightlyRates": [
+              "135.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "20.96",
+            "nativeTaxesAndFeePerStay": "20.96",
+            "totalPriceExcludingTaxesAndFeePerStay": "135.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "135.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "156.16",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "156.16",
+            "grandTotal": "156.16",
+            "nativeGrandTotal": "156.16",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 4,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 20.96 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879511",
+        "longDescription": "Premium Queen Room - Non-refundable - This double room has a cable TV and air conditioning",
+        "roomDisplayName": "Premium Queen Room - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "143.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "13712C972F41490BB9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2092,
+            "rateCategoryType": 8,
+            "originalName": "Premium Queen Room - Non-refundable",
+            "originalRoomRateDescription": "Premium Queen Room - Non-refundable - This double room has a cable TV and air conditioning",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "143.20",
+            "nativeAverageNightlyRate": "143.20",
+            "nativeNightlyRates": [
+              "143.20"
+            ],
+            "nightlyRates": [
+              "143.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "22.20",
+            "nativeTaxesAndFeePerStay": "22.20",
+            "totalPriceExcludingTaxesAndFeePerStay": "143.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "143.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "165.40",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "165.40",
+            "grandTotal": "165.40",
+            "nativeGrandTotal": "165.40",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 6,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "QUEEN",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 22.20 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 Queen",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879508",
+        "longDescription": "Deluxe Corner King Room - Non-refundable - This room features a flat-screen TV with cable channels, a work desk and seating area",
+        "roomDisplayName": "Deluxe Corner King Room - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "151.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "3BCBC2AB0FBB316AB9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2553,
+            "rateCategoryType": 8,
+            "originalName": "Deluxe Corner King Room - Non-refundable",
+            "originalRoomRateDescription": "Deluxe Corner King Room - Non-refundable - This room features a flat-screen TV with cable channels, a work desk and seating area",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "151.20",
+            "nativeAverageNightlyRate": "151.20",
+            "nativeNightlyRates": [
+              "151.20"
+            ],
+            "nightlyRates": [
+              "151.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "23.44",
+            "nativeTaxesAndFeePerStay": "23.44",
+            "totalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "grandTotal": "174.64",
+            "nativeGrandTotal": "174.64",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 7,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "CORNER",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 23.44 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "CORNER",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879509",
+        "longDescription": "Premium King Room - Non-refundable - This room features a flat-screen TV with cable channels and a work desk.",
+        "roomDisplayName": "Premium King Room - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "151.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "99DA60B4B12CB9FFB9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2086,
+            "rateCategoryType": 8,
+            "originalName": "Premium King Room - Non-refundable",
+            "originalRoomRateDescription": "Premium King Room - Non-refundable - This room features a flat-screen TV with cable channels and a work desk.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "151.20",
+            "nativeAverageNightlyRate": "151.20",
+            "nativeNightlyRates": [
+              "151.20"
+            ],
+            "nightlyRates": [
+              "151.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "23.44",
+            "nativeTaxesAndFeePerStay": "23.44",
+            "totalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "grandTotal": "174.64",
+            "nativeGrandTotal": "174.64",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 8,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 23.44 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879510",
+        "longDescription": "Premium Double Room with Two Double Beds - Non-refundable - This room features a flat-screen TV with cable channels and a work desk.",
+        "roomDisplayName": "Premium Double Room with Two Double Beds - Non-refundable",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "151.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "CDDDF71002FF2A7DB9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2841,
+            "rateCategoryType": 8,
+            "originalName": "Premium Double Room with Two Double Beds - Non-refundable",
+            "originalRoomRateDescription": "Premium Double Room with Two Double Beds - Non-refundable - This room features a flat-screen TV with cable channels and a work desk.",
+            "maxOccupancy": 4,
+            "pricedOccupancy": 4,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "151.20",
+            "nativeAverageNightlyRate": "151.20",
+            "nativeNightlyRates": [
+              "151.20"
+            ],
+            "nightlyRates": [
+              "151.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "23.44",
+            "nativeTaxesAndFeePerStay": "23.44",
+            "totalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "151.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "174.64",
+            "grandTotal": "174.64",
+            "nativeGrandTotal": "174.64",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 9,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedCount": 2,
+                "bedType": "DOUBLE",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 23.44 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "2 Double",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879501",
+        "longDescription": "Standard Queen Room - This room features cable TV and a desk. Free WiFi and a complimentary breakfast are also included.",
+        "roomDisplayName": "Standard Queen Room",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Alarm clock, Coffee machine, City view",
+        "displayableRates": [{
+          "displayPrice": "159.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "AAE6DAF4B72DFA4730FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2274,
+            "rateCategoryType": 8,
+            "originalName": "Standard Queen Room",
+            "originalRoomRateDescription": "Standard Queen Room - This room features cable TV and a desk. Free WiFi and a complimentary breakfast are also included.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "159.00",
+            "nativeAverageNightlyRate": "159.00",
+            "nativeNightlyRates": [
+              "159.00"
+            ],
+            "nightlyRates": [
+              "159.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "24.64",
+            "nativeTaxesAndFeePerStay": "24.64",
+            "totalPriceExcludingTaxesAndFeePerStay": "159.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "159.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "183.64",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "183.64",
+            "grandTotal": "183.64",
+            "nativeGrandTotal": "183.64",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 2,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "QUEEN",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "amenities": [
+                "FREE BREAKFAST",
+                "FREE WIFI",
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 24.64 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 Queen",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRNT",
+            "name": "Free WIFI",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879502",
+        "longDescription": "Business Class King Room - Non-refundable - This room features cable TV and a desk.",
+        "roomDisplayName": "Business Class King Room - Non-refundable",
+        "roomFacilities": "Telephone, Iron, Desk, Free toiletries, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV",
+        "displayableRates": [{
+          "displayPrice": "159.20",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "D20745D5E9D0D52AB9778683BA384DEEE92F08AD782B7A6F15129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2659,
+            "rateCategoryType": 8,
+            "originalName": "Business Class King Room - Non-refundable",
+            "originalRoomRateDescription": "Business Class King Room - Non-refundable - This room features cable TV and a desk.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "159.20",
+            "nativeAverageNightlyRate": "159.20",
+            "nativeNightlyRates": [
+              "159.20"
+            ],
+            "nightlyRates": [
+              "159.20"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "24.68",
+            "nativeTaxesAndFeePerStay": "24.68",
+            "totalPriceExcludingTaxesAndFeePerStay": "159.20",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "159.20",
+            "totalPriceIncludingTaxesAndFeePerStay": "183.88",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "183.88",
+            "grandTotal": "183.88",
+            "nativeGrandTotal": "183.88",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": false,
+            "roomsLeft": 5,
+            "rmiScore": 10,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "BUSINESS",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. The total price of the reservation may be charged anytime after booking.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed.",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 24.68 tax per room is excluded from the rate."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "BUSINESS",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879506",
+        "longDescription": "Standard King Room - This room features a work desk and a TV with cable channels.",
+        "roomDisplayName": "Standard King Room",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "169.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "370D766B8C0F76D330FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2427,
+            "rateCategoryType": 8,
+            "originalName": "Standard King Room",
+            "originalRoomRateDescription": "Standard King Room - This room features a work desk and a TV with cable channels.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "169.00",
+            "nativeAverageNightlyRate": "169.00",
+            "nativeNightlyRates": [
+              "169.00"
+            ],
+            "nightlyRates": [
+              "169.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "26.20",
+            "nativeTaxesAndFeePerStay": "26.20",
+            "totalPriceExcludingTaxesAndFeePerStay": "169.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "169.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "195.20",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "195.20",
+            "grandTotal": "195.20",
+            "nativeGrandTotal": "195.20",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 3,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 26.20 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879507",
+        "longDescription": "Standard Double Room with Two Double Beds - This room features a flat-screen TV with cable channels and a roll in shower.",
+        "roomDisplayName": "Standard Double Room with Two Double Beds",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "169.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "D15CCB0020C5702830FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2408,
+            "rateCategoryType": 8,
+            "originalName": "Standard Double Room with Two Double Beds",
+            "originalRoomRateDescription": "Standard Double Room with Two Double Beds - This room features a flat-screen TV with cable channels and a roll in shower.",
+            "maxOccupancy": 4,
+            "pricedOccupancy": 4,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "169.00",
+            "nativeAverageNightlyRate": "169.00",
+            "nativeNightlyRates": [
+              "169.00"
+            ],
+            "nightlyRates": [
+              "169.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "26.20",
+            "nativeTaxesAndFeePerStay": "26.20",
+            "totalPriceExcludingTaxesAndFeePerStay": "169.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "169.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "195.20",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "195.20",
+            "grandTotal": "195.20",
+            "nativeGrandTotal": "195.20",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 11,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedCount": 2,
+                "bedType": "DOUBLE",
+                "sofa": false
+              }],
+              "roomType": "STANDARD",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 26.20 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "2 Double",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879511",
+        "longDescription": "Premium Queen Room - This double room has a cable TV and air conditioning",
+        "roomDisplayName": "Premium Queen Room",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "179.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "13712C972F41490B30FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2172,
+            "rateCategoryType": 8,
+            "originalName": "Premium Queen Room",
+            "originalRoomRateDescription": "Premium Queen Room - This double room has a cable TV and air conditioning",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "179.00",
+            "nativeAverageNightlyRate": "179.00",
+            "nativeNightlyRates": [
+              "179.00"
+            ],
+            "nightlyRates": [
+              "179.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "27.75",
+            "nativeTaxesAndFeePerStay": "27.75",
+            "totalPriceExcludingTaxesAndFeePerStay": "179.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "179.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "206.75",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "206.75",
+            "grandTotal": "206.75",
+            "nativeGrandTotal": "206.75",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 12,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "QUEEN",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 27.75 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 Queen",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879508",
+        "longDescription": "Deluxe Corner King Room - This room features a flat-screen TV with cable channels, a work desk and seating area",
+        "roomDisplayName": "Deluxe Corner King Room",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "189.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "3BCBC2AB0FBB316A30FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2462,
+            "rateCategoryType": 8,
+            "originalName": "Deluxe Corner King Room",
+            "originalRoomRateDescription": "Deluxe Corner King Room - This room features a flat-screen TV with cable channels, a work desk and seating area",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "189.00",
+            "nativeAverageNightlyRate": "189.00",
+            "nativeNightlyRates": [
+              "189.00"
+            ],
+            "nightlyRates": [
+              "189.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "29.29",
+            "nativeTaxesAndFeePerStay": "29.29",
+            "totalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "grandTotal": "218.29",
+            "nativeGrandTotal": "218.29",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 13,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "CORNER",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 29.29 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "CORNER",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879509",
+        "longDescription": "Premium King Room - This room features a flat-screen TV with cable channels and a work desk.",
+        "roomDisplayName": "Premium King Room",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "189.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "99DA60B4B12CB9FF30FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2981,
+            "rateCategoryType": 8,
+            "originalName": "Premium King Room",
+            "originalRoomRateDescription": "Premium King Room - This room features a flat-screen TV with cable channels and a work desk.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "189.00",
+            "nativeAverageNightlyRate": "189.00",
+            "nativeNightlyRates": [
+              "189.00"
+            ],
+            "nightlyRates": [
+              "189.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "29.29",
+            "nativeTaxesAndFeePerStay": "29.29",
+            "totalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "grandTotal": "218.29",
+            "nativeGrandTotal": "218.29",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 14,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 29.29 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168927.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168927.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168927.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879510",
+        "longDescription": "Premium Double Room with Two Double Beds - This room features a flat-screen TV with cable channels and a work desk.",
+        "roomDisplayName": "Premium Double Room with Two Double Beds",
+        "roomFacilities": "Telephone, Air Conditioning, Hairdryer, Iron, Desk, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV, Coffee machine",
+        "displayableRates": [{
+          "displayPrice": "189.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "CDDDF71002FF2A7D30FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2331,
+            "rateCategoryType": 8,
+            "originalName": "Premium Double Room with Two Double Beds",
+            "originalRoomRateDescription": "Premium Double Room with Two Double Beds - This room features a flat-screen TV with cable channels and a work desk.",
+            "maxOccupancy": 4,
+            "pricedOccupancy": 4,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "189.00",
+            "nativeAverageNightlyRate": "189.00",
+            "nativeNightlyRates": [
+              "189.00"
+            ],
+            "nightlyRates": [
+              "189.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "29.29",
+            "nativeTaxesAndFeePerStay": "29.29",
+            "totalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "189.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "218.29",
+            "grandTotal": "218.29",
+            "nativeGrandTotal": "218.29",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 15,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedCount": 2,
+                "bedType": "DOUBLE",
+                "sofa": false
+              }],
+              "roomType": "PREMIUM",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 29.29 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168183.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168183.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168183.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "2 Double",
+          "roomType": "PREMIUM",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }, {
+        "roomId": "5879502",
+        "longDescription": "Business Class King Room - This room features cable TV and a desk.",
+        "roomDisplayName": "Business Class King Room",
+        "roomFacilities": "Telephone, Iron, Desk, Free toiletries, Bathroom, Heating, Cable Channels, Bath or Shower, Flat-screen TV",
+        "displayableRates": [{
+          "displayPrice": "199.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "D20745D5E9D0D52A30FD913D23741EF623A64242BB851EF215129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2080,
+            "rateCategoryType": 8,
+            "originalName": "Business Class King Room",
+            "originalRoomRateDescription": "Business Class King Room - This room features cable TV and a desk.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 5,
+            "exchangeRate": "1",
+            "averageNightlyRate": "199.00",
+            "nativeAverageNightlyRate": "199.00",
+            "nativeNightlyRates": [
+              "199.00"
+            ],
+            "nightlyRates": [
+              "199.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "30.84",
+            "nativeTaxesAndFeePerStay": "30.84",
+            "totalPriceExcludingTaxesAndFeePerStay": "199.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "199.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "229.84",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "229.84",
+            "grandTotal": "229.84",
+            "nativeGrandTotal": "229.84",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "cancellableUntil": "07-28-2016 11:59 PM",
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: Good news! This reservation qualifies for free cancellation up until 11:59 PM local hotel time on Thursday, July 28, 2016. If cancelled or modified up to 1 day before the date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "FLEXIBLE_CANCELLATION",
+              "freeRefundableFlag": true
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 5,
+            "rmiScore": 16,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedType": "KING",
+                "sofa": false
+              }],
+              "roomType": "BUSINESS",
+              "amenities": [
+                "FREE BREAKFAST"
+              ],
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are allowed on request. Charges may be applicable. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in the hotel rooms and is free of charge. ",
+              "POLICY_CHILDREN": "All children are welcome. All children under 16 years are charged  USD 20 per night for extra beds.The maximum number of extra beds in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "15.5 % Tax",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 30.84 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible on site (reservation is not needed) and costs  USD 32 per  day. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_MEALPLAN": "Breakfast included",
+              "IMPORTANT_INFORMATION": "Please note that the complimentary breakfast is available until 31 August, 2016 only. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24168175.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24168175.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24168175.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/241/24169324.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/241/24169324.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/241/24169324.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "1 King",
+          "roomType": "BUSINESS",
+          "highlightedRoomAmenities": [{
+            "code": "FINTRPUB",
+            "name": "Free Internet In Public Areas",
+            "type": "INTERNET",
+            "free": true
+          }, {
+            "code": "FBRKFST",
+            "name": "Free Breakfast",
+            "type": "BREAKFAST",
+            "free": true
+          }],
+          "condo": false
+        }
+      }],
+      "chainCode": "BK",
+      "similarHotels": [{
+        "id": "57920",
+        "name": "Best Western Plus Hotel And Conference Center",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 7.3,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/57/57920/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 127.49,
+        "currencyCode": "USD",
+        "proximity": 6.073148757935833
+      }, {
+        "id": "49417",
+        "name": "Baltimore Harbor Hotel",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 7.6,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/49/49417/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 127.2,
+        "currencyCode": "USD",
+        "proximity": 0
+      }, {
+        "id": "46858",
+        "name": "Holiday Inn Inner Harbor",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 8.2,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/46/46858/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 140,
+        "currencyCode": "USD",
+        "proximity": 0.3771752888079669
+      }, {
+        "id": "5499003",
+        "name": "Hilton Garden Inn Baltimore Inner Harbor",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 8.6,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/5499/5499003/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 169.15,
+        "currencyCode": "USD",
+        "proximity": 1.42568049200268
+      }, {
+        "id": "8961405",
+        "name": "Homewood Suites By Hilton Baltimore",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 8.6,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/8961/8961405/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 177.65,
+        "currencyCode": "USD",
+        "proximity": 1.42568049200268
+      }, {
+        "id": "14112803",
+        "name": "Hyatt Place Baltimore/inner Harbor",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 9,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/14112/14112803/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 171.84,
+        "currencyCode": "USD",
+        "proximity": 1.6926949699738665
+      }, {
+        "id": "1797504",
+        "name": "Residence Inn Baltimore Inner Harbor",
+        "clusterId": 4450,
+        "starRating": 3,
+        "reviewScore": 9,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/1797/1797504/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 169,
+        "currencyCode": "USD",
+        "proximity": 0.33631454461366694
+      }, {
+        "id": "46731",
+        "name": "Lord Baltimore Hotel",
+        "clusterId": 4450,
+        "starRating": 3.5,
+        "reviewScore": 8.5,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/46/46731/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 143.2,
+        "currencyCode": "USD",
+        "proximity": 0.1174639195488426
+      }, {
+        "id": "49234",
+        "name": "Baltimore Marriott Inner Harbor At Camden Yards",
+        "clusterId": 4450,
+        "starRating": 3.5,
+        "reviewScore": 8.3,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/49/49234/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 209,
+        "currencyCode": "USD",
+        "proximity": 0.507985238061618
+      }, {
+        "id": "45866",
+        "name": "Inn At The Colonnade Baltimore, A Doubletree By Hilton Hotel",
+        "clusterId": 4450,
+        "starRating": 3.5,
+        "reviewScore": 8.3,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/45/45866/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 127.2,
+        "currencyCode": "USD",
+        "proximity": 4.788097606124435
+      }],
+      "nearbyAttractions": [{
+        "itemName": "Camden Yards",
+        "id": "1297119",
+        "type": "ATTRACTION",
+        "lat": 39.285213470458984,
+        "lon": -76.62178039550781,
+        "proximity": 0.4,
+        "link": "/travelguides/attractions/Camden_Yards_Baltimore_Maryland_United_States-1297119.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Harborplace & The Gallery",
+        "id": "1297139",
+        "type": "ATTRACTION",
+        "lat": 39.286598205566406,
+        "lon": -76.61139678955078,
+        "proximity": 0.4,
+        "link": "/travelguides/attractions/Harborplace_amp_The_Gallery_Baltimore_Maryland_United_States-1297139.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Walters Art Museum",
+        "id": "1297169",
+        "type": "ATTRACTION",
+        "lat": 39.296024322509766,
+        "lon": -76.6155014038086,
+        "proximity": 0.4,
+        "link": "/travelguides/attractions/Walters_Art_Museum_Baltimore_Maryland_United_States-1297169.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "National Aquarium in Baltimore",
+        "id": "1297149",
+        "type": "ATTRACTION",
+        "lat": 39.28670120239258,
+        "lon": -76.60858917236328,
+        "proximity": 0.5,
+        "link": "/travelguides/attractions/National_Aquarium_in_Baltimore_Baltimore_Maryland_United_States-1297149.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Maryland Science Center",
+        "id": "482869",
+        "type": "ATTRACTION",
+        "lat": 39.28219985961914,
+        "lon": -76.61279296875,
+        "proximity": 0.6,
+        "link": "/travelguides/attractions/Maryland_Science_Center_Baltimore_Maryland_United_States-482869.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "USS Constellation",
+        "id": "482879",
+        "type": "ATTRACTION",
+        "lat": 39.297847747802734,
+        "lon": -76.60789489746094,
+        "proximity": 0.7,
+        "link": "/travelguides/attractions/USS_Constellation_Baltimore_Maryland_United_States-482879.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "American Visionary Art Museum",
+        "id": "481859",
+        "type": "ATTRACTION",
+        "lat": 39.27988052368164,
+        "lon": -76.606201171875,
+        "proximity": 0.9,
+        "link": "/travelguides/attractions/American_Visionary_Art_Museum_Baltimore_Maryland_United_States-481859.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Maryland Zoo in Baltimore",
+        "id": "21830",
+        "type": "ATTRACTION",
+        "lat": 39.31660842895508,
+        "lon": -76.63029479980469,
+        "proximity": 2,
+        "link": "/travelguides/attractions/Maryland_Zoo_in_Baltimore_Baltimore_Maryland_United_States-21830.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Fort McHenry",
+        "id": "1297129",
+        "type": "ATTRACTION",
+        "lat": 39.2657585144043,
+        "lon": -76.58451843261719,
+        "proximity": 2.4,
+        "link": "/travelguides/attractions/Fort_McHenry_Baltimore_Maryland_United_States-1297129.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Baltimore Museum of Art",
+        "id": "481889",
+        "type": "ATTRACTION",
+        "lat": 39.32609939575195,
+        "lon": -76.61799621582031,
+        "proximity": 2.5,
+        "link": "/travelguides/attractions/Baltimore_Museum_of_Art_Baltimore_Maryland_United_States-481889.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }],
+      "nearbyRestaurants": [{
+        "itemName": "Shula's Steak House",
+        "id": "1025919",
+        "lat": 39.29030227661133,
+        "lon": -76.61640167236328,
+        "proximity": 0,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "B&O American Brasserie",
+        "id": "1746519",
+        "lat": 39.28947830200195,
+        "lon": -76.61514282226562,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Bân Thai",
+        "id": "1036939",
+        "lat": 39.2933235168457,
+        "lon": -76.61528778076172,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Cazbar",
+        "id": "877149",
+        "lat": 39.29270935058594,
+        "lon": -76.6153335571289,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Così",
+        "id": "902679",
+        "lat": 39.28770065307617,
+        "lon": -76.61499786376953,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Lumbini",
+        "id": "1746959",
+        "lat": 39.29309844970703,
+        "lon": -76.61537170410156,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Maisy's",
+        "id": "1746969",
+        "lat": 39.29277420043945,
+        "lon": -76.61534881591797,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Mekong Delta Cafe",
+        "id": "1746979",
+        "lat": 39.29301452636719,
+        "lon": -76.6167984008789,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Au Bon Pain",
+        "id": "1041859",
+        "lat": 39.2896842956543,
+        "lon": -76.61229705810547,
+        "proximity": 0.3,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Au Bon Pain",
+        "id": "1041869",
+        "lat": 39.28969955444336,
+        "lon": -76.61100006103516,
+        "proximity": 0.3,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }],
+      "popularityCount": 0,
+      "hotelViewCount": [{
+        "elapsedTimeInMinutes": 120,
+        "cumulativeViewCount": 0
+      }],
+      "allInclusiveRateProperty": false,
+      "recentlyViewed": false,
+      "dealUnwrapable": false
+    },
+    "los": 1,
+    "numRooms": 1,
+    "skey": "KS3Z3Z18OSD6IPJT5HD89HAFA|1467124372905",
+    "areaInfo": {
+      "cityId": 3000008983,
+      "regionId": 404,
+      "opqHotelCountInRegion": 140,
+      "samedayOpqHotelCountInRegion": 140
+    }
+  },
+  "New York, New York": {
+    "resultCode": 200,
+    "resultMessage": "SUCCESS",
+    "duration": 610,
+    "version": "4.2.26-SNAPSHOT",
+    "rguid": "246812e03d3511e681c5005056ba68ba",
+    "src": "Q03",
+    "hotel": {
+      "hotelId": "40819",
+      "name": "Excelsior Hotel",
+      "brand": "Independent",
+      "brandId": "0",
+      "description": "This Manhattan hotel is a 3-minute walk from Central Park and the 81st Street - Museum of Natural History Subway Station. It features a gym and modern rooms with a flat-screen satellite TV.An iPod docking station and a safe are included in the cream-colored rooms at Excelsior Hotel. Guests will also find ironing facilities and a hair dryer in every room. Spacious rooms with a sofa bed are available.The Excelsior Hotel offers a tour desk, which can help guests get tickets to Broadway shows. There is also a business center.The Excelsior Hotel overlooks the American Museum of Natural History and the Rose Center for Earth and Science. It is a 20-minute walk to The Metropolitan Museum of Art. ",
+      "starRating": 3.5,
+      "propertyTypeId": 204,
+      "location": {
+        "address": {
+          "addressLine1": "45 West 81st Street",
+          "cityName": "New York",
+          "provinceCode": "NY",
+          "countryName": "United States",
+          "zip": "10024",
+          "phone": "+1212-362-9200",
+          "isoCountryCode": "US"
+        },
+        "longitude": -73.973851,
+        "latitude": 40.783,
+        "timeZone": "America/New_York",
+        "neighborhoodId": "5600",
+        "neighborhoodName": "Upper West Side",
+        "cityId": 3000016152,
+        "zoneId": "3908"
+      },
+      "images": [{
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806550.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806550.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806532.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806532.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806534.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806534.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806535.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806535.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806537.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806537.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806538.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806538.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806606.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806606.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806607.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806607.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806610.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806610.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806612.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806612.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806614.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806614.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806624.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806624.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806781.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806781.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806783.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806783.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806785.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806785.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806787.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806787.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806788.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806788.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806879.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806879.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806881.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806881.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806883.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806883.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806887.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806887.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806893.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806893.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806977.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806977.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806979.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806979.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806984.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806984.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806985.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/388/38806985.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/512/51281744.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/512/51281744.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }, {
+        "imageUrl": "http://aff.bstatic.com/images/hotel/max500/512/51281759.jpg",
+        "imageHDUrl": "http://aff.bstatic.com/images/hotel/840x460/512/51281759.jpg",
+        "description": "Hotel information",
+        "categoryName": "Hotel information"
+      }],
+      "thumbnailUrl": "http://mobileimg.priceline.com/htlimg/40/40819/thumbnail-150-square.jpg",
+      "policies": {
+        "checkInTime": "15:00 ",
+        "checkOutTime": " 12:00",
+        "importantInfo": [
+          "Please note, guests must be at least 21 years old to check in.Please note that the property exterior will be undergoing renovations Monday through Friday from 08:00 to 16:00. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply."
+        ]
+      },
+      "hotelFeatures": {
+        "features": [
+          "24-hour front desk",
+          "Air conditioning",
+          "Business centre",
+          "Concierge service",
+          "Dry cleaning",
+          "Express check-in/check-out",
+          "Facilities for disabled guests",
+          "Family rooms",
+          "Fitness centre",
+          "Free WiFi",
+          "Gift shop",
+          "Heating",
+          "Ironing service",
+          "Lift",
+          "Luggage storage",
+          "Meeting/banquet facilities",
+          "Newspapers",
+          "Non-smoking rooms",
+          "Non-smoking throughout",
+          "Restaurant",
+          "Shoeshine",
+          "Ticket service",
+          "Tour desk",
+          "Trouser press"
+        ],
+        "topAmenities": [
+          "Free WiFi",
+          "Fitness centre",
+          "Business centre",
+          "Restaurant",
+          "Non-smoking rooms"
+        ]
+      },
+      "overallGuestRating": 8.1,
+      "totalReviewCount": 554,
+      "guestReviewGdsName": "BOOKING",
+      "ratings": [{
+        "score": 7.800000190734863,
+        "category": "Staff"
+      }, {
+        "score": 8.5,
+        "category": "Cleanliness"
+      }, {
+        "score": 9.100000381469727,
+        "category": "Location"
+      }, {
+        "score": 0,
+        "category": "Dining"
+      }],
+      "quotes": [{
+        "text": "It is a beautifully maintained older/stately building, with large comfortable rooms. "
+      }, {
+        "text": "Right across from Natural History Museum and half a block from Central Park "
+      }, {
+        "text": "Excellent hotel for the price."
+      }],
+      "rooms": [{
+        "roomId": "5971302",
+        "longDescription": "Superior Double Room with Two Double Beds - Non-refundable - This spacious, air-conditioned room features French doors and a seating area with a flat-screen cable TV. Each has a private bathroom with bathrobes and free toiletries.",
+        "roomDisplayName": "Superior Double Room with Two Double Beds - Non-refundable",
+        "roomFacilities": "Safety Deposit Box, Telephone, Air Conditioning, Hairdryer, Wake Up Service/Alarm Clock, Iron, Trouser Press, Bathrobe, Radio, Desk, Ironing Facilities, Seating Area, Free toiletries, Toilet, Bathroom, Heating, Satellite Channels, Bath or Shower, Carpeted, Flat-screen TV, iPod dock",
+        "displayableRates": [{
+          "displayPrice": "299.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "DBEF885E5D1612A7DA12EEF576CCA3D72436D06649F99DD415129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2228,
+            "rateCategoryType": 8,
+            "originalName": "Superior Double Room with Two Double Beds - Non-refundable",
+            "originalRoomRateDescription": "Superior Double Room with Two Double Beds - Non-refundable - This spacious, air-conditioned room features French doors and a seating area with a flat-screen cable TV. Each has a private bathroom with bathrobes and free toiletries.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 1,
+            "exchangeRate": "1",
+            "averageNightlyRate": "299.00",
+            "nativeAverageNightlyRate": "299.00",
+            "nativeNightlyRates": [
+              "299.00"
+            ],
+            "nightlyRates": [
+              "299.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "47.60",
+            "nativeTaxesAndFeePerStay": "47.60",
+            "totalPriceExcludingTaxesAndFeePerStay": "299.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "299.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "346.60",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "346.60",
+            "grandTotal": "346.60",
+            "nativeGrandTotal": "346.60",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 1,
+            "rmiScore": 1,
+            "roomRateFeatures": {
+              "beddingList": [{
+                "bedCount": 2,
+                "bedType": "DOUBLE",
+                "sofa": false
+              }],
+              "roomType": "SUPERIOR",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are not allowed. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in public areas and is free of charge. WiFi is available in the hotel rooms and costs  USD  9.95 per  24 hours.",
+              "POLICY_CHILDREN": "All children are welcome. All children under 11 years stay free of charge when using existing beds.All further older children or adults are charged USD 20 per person per night when using existing beds.One child under 2 years stays free of charge in a child's cot/crib.There is no capacity for extra beds in the room.The maximum number of children's cots/cribs in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "14.75 % Tax, US$ 3.50 City tax per night",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 47.60 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible at a location nearby (reservation is not needed) and charges are applicable. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_GROUPS": "When booking more than 5 rooms, different policies and additional supplements may apply. ",
+              "IMPORTANT_INFORMATION": "Please note, guests must be at least 21 years old to check in.Please note that the property exterior will be undergoing renovations Monday through Friday from 08:00 to 16:00. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Diners Club",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806606.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806606.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806606.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806606.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806606.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806624.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806624.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806624.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806624.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806624.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806605.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806605.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806605.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806605.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806605.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806607.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806607.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806607.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806607.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806607.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806614.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806614.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806614.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806614.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806614.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806610.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806610.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806610.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806610.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806610.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806612.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806612.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806612.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806612.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806612.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "2 Double",
+          "roomType": "SUPERIOR",
+          "condo": false
+        }
+      }, {
+        "roomId": "5971307",
+        "longDescription": "Deluxe Room - Non-refundable - This double room has air conditioning and iPod dock.Bed type preference cannot be guaranteed as it will be allocated upon arrival based on availability.",
+        "roomDisplayName": "Deluxe Room - Non-refundable",
+        "roomFacilities": "Safety Deposit Box, Telephone, Air Conditioning, Hairdryer, Wake Up Service/Alarm Clock, Iron, Radio, Ironing Facilities, Free toiletries, Toilet, Bathroom, Heating, Satellite Channels, Bath or Shower, Carpeted, Flat-screen TV, iPod dock",
+        "displayableRates": [{
+          "displayPrice": "349.00",
+          "displayCurrency": "USD",
+          "originalRates": [{
+            "rateIdentifier": "AEF7EF858752AE40DA12EEF576CCA3D72436D06649F99DD415129C54D20FCE28E2B258E1861BDCB9",
+            "gid": 2512,
+            "rateCategoryType": 8,
+            "originalName": "Deluxe Room - Non-refundable",
+            "originalRoomRateDescription": "Deluxe Room - Non-refundable - This double room has air conditioning and iPod dock.Bed type preference cannot be guaranteed as it will be allocated upon arrival based on availability.",
+            "maxOccupancy": 2,
+            "pricedOccupancy": 2,
+            "totalRoomsRemaining": 4,
+            "exchangeRate": "1",
+            "averageNightlyRate": "349.00",
+            "nativeAverageNightlyRate": "349.00",
+            "nativeNightlyRates": [
+              "349.00"
+            ],
+            "nightlyRates": [
+              "349.00"
+            ],
+            "taxRate": 0,
+            "processingFeePerStay": "0.00",
+            "nativeProcessingFeePerStay": "0.00",
+            "taxesAndFeePerStay": "54.98",
+            "nativeTaxesAndFeePerStay": "54.98",
+            "totalPriceExcludingTaxesAndFeePerStay": "349.00",
+            "nativeTotalPriceExcludingTaxesAndFeePerStay": "349.00",
+            "totalPriceIncludingTaxesAndFeePerStay": "403.98",
+            "nativeTotalPriceIncludingTaxesAndFeePerStay": "403.98",
+            "grandTotal": "403.98",
+            "nativeGrandTotal": "403.98",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "nativeCurrencyCode": "USD",
+            "nativeCurrencySymbol": "$",
+            "cancellationPolicy": {
+              "text": "Priceline will not charge you a change or cancel fee, however this hotel has the following cancellation policy: If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.",
+              "cancelPolicyCategory": "NON_REFUNDABLE",
+              "freeRefundableFlag": false
+            },
+            "payWhenYouStayFlag": true,
+            "roomsLeft": 4,
+            "rmiScore": 4,
+            "roomRateFeatures": {
+              "roomType": "DELUXE",
+              "version": 26
+            },
+            "rateLevelPolicies": {
+              "POLICY_HOTEL_PETS": "Pets are not allowed. ",
+              "POLICY_PHOTO": "The reservation holder must present a valid photo ID and credit card at check-in. The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(HTL_CHRGS_RETAIL_POP)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\">charges</a> may be mandatory (e.g., resort fees) or optional (parking, phone calls or minibar charges) and are not included in the room rate.",
+              "POLICY_HOTEL_INTERNET": "WiFi is available in public areas and is free of charge. WiFi is available in the hotel rooms and costs  USD  9.95 per  24 hours.",
+              "POLICY_CHILDREN": "All children are welcome. All children under 11 years stay free of charge when using existing beds.All further older children or adults are charged USD 20 per person per night when using existing beds.One child under 2 years stays free of charge in a child's cot/crib.There is no capacity for extra beds in the room.The maximum number of children's cots/cribs in a room is 1.",
+              "POLICY_SUMMARY_EXCLUDED": "14.75 % Tax, US$ 3.50 City tax per night",
+              "POLICY_HOTEL_EXTRACHARGES": "USD 54.98 tax per room is excluded from the rate.",
+              "POLICY_HOTEL_PARKING": "Public parking is possible at a location nearby (reservation is not needed) and charges are applicable. ",
+              "POLICY_PREPAY": "Your credit card will be used to guarantee the reservation. The hotel will charge you directly for room and tax. No deposit will be charged.  The hotel reserves the right to authorize your credit card prior to check-in.\n\nIf you dont check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance, the hotel reserves the right to cancel your reservation and may charge you a penalty.",
+              "POLICY_HOTEL_GROUPS": "When booking more than 5 rooms, different policies and additional supplements may apply. ",
+              "IMPORTANT_INFORMATION": "Please note, guests must be at least 21 years old to check in.Please note that the property exterior will be undergoing renovations Monday through Friday from 08:00 to 16:00. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.",
+              "POLICY_RATE_DESC": "<b>Rate Description: </b>Special Rate",
+              "POLICY_PREAUTHORIZE": "The hotel reserves the right to pre-authorise credit cards prior to arrival.",
+              "POLICY_HOTEL_OCCUPANCY": "All rooms are booked for <a href=\"http://www.priceline.com/customerservice/faq/showHelp.asp?faq=ext(hotel_occupancy)\" title=\"PricelineHelp\" id=\"showHelp\" target=\"_blank\"> double occupancy</a> (i.e. 2 adults) and accommodations for more than two adults are not guaranteed."
+            },
+            "paymentOptions": [
+              "VI",
+              "MC",
+              "AX"
+            ],
+            "checkInPaymentOptions": [
+              "American Express",
+              "Visa",
+              "Discover",
+              "Diners Club",
+              "Mastercard"
+            ],
+            "ccRequired": true,
+            "cvcRequired": false,
+            "targetBooking": true
+          }]
+        }],
+        "images": [{
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806785.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806785.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806785.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806785.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806785.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806781.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806781.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806781.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806781.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806781.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806787.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806787.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806787.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806787.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806787.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806780.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806780.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806780.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806780.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806780.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806783.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806783.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806783.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806783.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806783.jpg"
+        }, {
+          "thumbNailUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806788.jpg",
+          "mediumUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806788.jpg",
+          "largeUrl": "http://aff.bstatic.com/images/hotel/max500/388/38806788.jpg",
+          "smallUrl": "http://aff.bstatic.com/images/hotel/square60/388/38806788.jpg",
+          "imageUrl": "http://aff.bstatic.com/images/hotel/max300/388/38806788.jpg"
+        }],
+        "roomFeatures": {
+          "beddingOption": "",
+          "roomType": "DELUXE",
+          "condo": false
+        }
+      }],
+      "chainCode": "YX",
+      "similarHotels": [{
+        "id": "40819",
+        "name": "Excelsior Hotel",
+        "clusterId": 5600,
+        "starRating": 3.5,
+        "reviewScore": 8.1,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/40/40819/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 299,
+        "currencyCode": "USD",
+        "proximity": 0
+      }, {
+        "id": "17853703",
+        "name": "The Paul, An Ascend Hotel Collection Member",
+        "clusterId": 5600,
+        "starRating": 3.5,
+        "reviewScore": 8.4,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/17853/17853703/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 249,
+        "currencyCode": "USD",
+        "proximity": 4.299369664305228
+      }, {
+        "id": "17853703",
+        "name": "The Paul, An Ascend Hotel Collection Member",
+        "clusterId": 5600,
+        "starRating": 3.5,
+        "reviewScore": 8.4,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/17853/17853703/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 249,
+        "currencyCode": "USD",
+        "proximity": 4.299369664305228
+      }, {
+        "id": "40819",
+        "name": "Excelsior Hotel",
+        "clusterId": 5600,
+        "starRating": 3.5,
+        "reviewScore": 8.1,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/40/40819/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 299,
+        "currencyCode": "USD",
+        "proximity": 0
+      }, {
+        "id": "18625704",
+        "name": "The Jade Hotel",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.7,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/18625/18625704/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 520,
+        "currencyCode": "USD",
+        "proximity": 5.547349363669716
+      }, {
+        "id": "18625704",
+        "name": "The Jade Hotel",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.7,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/18625/18625704/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 520,
+        "currencyCode": "USD",
+        "proximity": 5.547349363669716
+      }, {
+        "id": "17743004",
+        "name": "Club Quarters, World Trade Center",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.5,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/17743/17743004/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 309,
+        "currencyCode": "USD",
+        "proximity": 8.813317586564105
+      }, {
+        "id": "17743004",
+        "name": "Club Quarters, World Trade Center",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.5,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/17743/17743004/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 309,
+        "currencyCode": "USD",
+        "proximity": 8.813317586564105
+      }, {
+        "id": "10790005",
+        "name": "The Jewel Hotel",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.5,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/10790/10790005/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 309,
+        "currencyCode": "USD",
+        "proximity": 2.6038432708432486
+      }, {
+        "id": "10790005",
+        "name": "The Jewel Hotel",
+        "clusterId": 5600,
+        "starRating": 4,
+        "reviewScore": 8.5,
+        "thumbnail": "http://mobileimg.priceline.com/htlimg/10790/10790005/thumbnail-300-landscape.jpg",
+        "averageNightlyPrice": 309,
+        "currencyCode": "USD",
+        "proximity": 2.6038432708432486
+      }],
+      "nearbyAttractions": [{
+        "itemName": "Blondies",
+        "id": "943889",
+        "type": "NIGHTLIFE",
+        "lat": 40.78331756591797,
+        "lon": -73.97860717773438,
+        "proximity": 0.2,
+        "link": "/travelguides/nightlife/Blondies_New_York_City_New_York_United_States-943889.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Blue Donkey Bar",
+        "id": "844339",
+        "type": "NIGHTLIFE",
+        "lat": 40.785888671875,
+        "lon": -73.97590637207031,
+        "proximity": 0.2,
+        "link": "/travelguides/nightlife/Blue_Donkey_Bar_New_York_City_New_York_United_States-844339.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Brother Jimmy's BBQ",
+        "id": "29980",
+        "type": "NIGHTLIFE",
+        "lat": 40.784053802490234,
+        "lon": -73.9776382446289,
+        "proximity": 0.2,
+        "link": "/travelguides/nightlife/Brother_Jimmys_BBQ_New_York_City_New_York_United_States-29980.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "George Keeley",
+        "id": "959349",
+        "type": "NIGHTLIFE",
+        "lat": 40.785858154296875,
+        "lon": -73.97636413574219,
+        "proximity": 0.2,
+        "link": "/travelguides/nightlife/George_Keeley_New_York_City_New_York_United_States-959349.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Brandy's Piano Bar",
+        "id": "944089",
+        "type": "NIGHTLIFE",
+        "lat": 40.777198791503906,
+        "lon": -73.9540023803711,
+        "proximity": 1.1,
+        "link": "/travelguides/nightlife/Brandys_Piano_Bar_New_York_City_New_York_United_States-944089.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Central Park Zoo",
+        "id": "633199",
+        "type": "ATTRACTION",
+        "lat": 40.766761779785156,
+        "lon": -73.97085571289062,
+        "proximity": 1.1,
+        "link": "/travelguides/attractions/Central_Park_Zoo_New_York_City_New_York_United_States-633199.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Daniel",
+        "id": "944809",
+        "type": "NIGHTLIFE",
+        "lat": 40.767051696777344,
+        "lon": -73.96797943115234,
+        "proximity": 1.1,
+        "link": "/travelguides/nightlife/Daniel_New_York_City_New_York_United_States-944809.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Bar Italia",
+        "id": "905259",
+        "type": "NIGHTLIFE",
+        "lat": 40.77196502685547,
+        "lon": -73.95604705810547,
+        "proximity": 1.2,
+        "link": "/travelguides/nightlife/Bar_Italia_New_York_City_New_York_United_States-905259.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Brother Jimmy's BBQ",
+        "id": "27660",
+        "type": "NIGHTLIFE",
+        "lat": 40.772159576416016,
+        "lon": -73.95586395263672,
+        "proximity": 1.2,
+        "link": "/travelguides/nightlife/Brother_Jimmys_BBQ_New_York_City_New_York_United_States-27660.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Brother Jimmy's BBQ",
+        "id": "28350",
+        "type": "NIGHTLIFE",
+        "lat": 40.7827033996582,
+        "lon": -73.9512939453125,
+        "proximity": 1.2,
+        "link": "/travelguides/nightlife/Brother_Jimmys_BBQ_New_York_City_New_York_United_States-28350.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Hudson Hotel Bar",
+        "id": "945839",
+        "type": "NIGHTLIFE",
+        "lat": 40.76811981201172,
+        "lon": -73.98390197753906,
+        "proximity": 1.2,
+        "link": "/travelguides/nightlife/Hudson_Hotel_Bar_New_York_City_New_York_United_States-945839.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Central Park",
+        "id": "20630",
+        "type": "ATTRACTION",
+        "lat": 40.768001556396484,
+        "lon": -73.95960235595703,
+        "proximity": 1.3,
+        "link": "/travelguides/attractions/Central_Park_New_York_City_New_York_United_States-20630.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Madame Tussaud's New York Inc",
+        "id": "53970",
+        "type": "ATTRACTION",
+        "lat": 40.7563591003418,
+        "lon": -73.98799133300781,
+        "proximity": 2,
+        "link": "/travelguides/attractions/Madame_Tussauds_New_York_New_York_New_York_United_States-53970.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Empire State Building",
+        "id": "632209",
+        "type": "ATTRACTION",
+        "lat": 40.7484016418457,
+        "lon": -73.9845962524414,
+        "proximity": 2.5,
+        "link": "/travelguides/attractions/Empire_State_Building_New_York_City_New_York_United_States-632209.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Rockefeller Center",
+        "id": "20160",
+        "type": "ATTRACTION",
+        "lat": 40.804588317871094,
+        "lon": -73.91240692138672,
+        "proximity": 3.5,
+        "link": "/travelguides/attractions/Rockefeller_Center_New_York_City_New_York_United_States-20160.html",
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }],
+      "nearbyRestaurants": [{
+        "itemName": "Bellini",
+        "id": "914249",
+        "lat": 40.784576416015625,
+        "lon": -73.97354125976562,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Bistro Citron",
+        "id": "856499",
+        "lat": 40.7842903137207,
+        "lon": -73.9737777709961,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Blossom",
+        "id": "899249",
+        "lat": 40.784080505371094,
+        "lon": -73.97394561767578,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Cilantro",
+        "id": "922159",
+        "lat": 40.7846565246582,
+        "lon": -73.9734878540039,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Lenny's",
+        "id": "874689",
+        "lat": 40.78480911254883,
+        "lon": -73.97337341308594,
+        "proximity": 0.1,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Dovetail",
+        "id": "905269",
+        "lat": 40.7806396484375,
+        "lon": -73.97648620605469,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Good Enough to Eat",
+        "id": "983719",
+        "lat": 40.78579330444336,
+        "lon": -73.9764175415039,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Hampton Chutney Co.",
+        "id": "848199",
+        "lat": 40.78527069091797,
+        "lon": -73.97675323486328,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Kefi",
+        "id": "870369",
+        "lat": 40.78538131713867,
+        "lon": -73.97298431396484,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }, {
+        "itemName": "Momoya",
+        "id": "895499",
+        "lat": 40.78409957885742,
+        "lon": -73.9776382446289,
+        "proximity": 0.2,
+        "merchPrice": 0,
+        "starRating": 0,
+        "fromSavedSearch": false
+      }],
+      "popularityCount": 0,
+      "hotelViewCount": [{
+        "elapsedTimeInMinutes": 120,
+        "cumulativeViewCount": 0
+      }],
+      "allInclusiveRateProperty": false,
+      "recentlyViewed": false,
+      "dealUnwrapable": false
+    },
+    "los": 1,
+    "numRooms": 1,
+    "skey": "1B0MQZT17O4ELTUUW557UOOTSH|1467124513632",
+    "areaInfo": {
+      "cityId": 3000016152,
+      "regionId": 55,
+      "opqHotelCountInRegion": 398,
+      "samedayOpqHotelCountInRegion": 372
+    }
+  }
+}
