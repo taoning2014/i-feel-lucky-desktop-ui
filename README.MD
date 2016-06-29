@@ -2,10 +2,23 @@
 
 # i-feel-lucky-desktop-ui
 
-> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com). Simply try to search either by specific feeling or a location like "New York".
+> [Live Demo](https://vimeo.com/172159175)
+
+> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com).
 
 > [PINCH.MD](docs/PINCH.MD). The general idea about this project
 
+## How to use it
+
+> As I mock up the back-end API, so the functionality is limited
+
+__Case 1: Search by specific feeling__
+
+Hover mouse to "I'm Feel..." button, then choose one feeling from the drop down, the button will change its text to that feeling, click the button again.
+
+__Case 2: Search by location feeling__
+
+Enter "New York" in the input box, then select the right one from auto complete. The button will change text to "I'm Feeling Lucky", click the button. __Right now only new york and Baltimore work__.
 
 ## Description
 
@@ -13,14 +26,14 @@ This is the front-end code for a Priceline.com hackathon I attend recently. I wr
 
 The project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
 
-Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call backend api, and parse the data send from backend.
+Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call back-end api, and parse the data send from back-end.
 
 **Highlight features**
 
 1. Beautiful UI Design
 2. jQuery and jQueryUI to handle client side logic
 3. Use handlebar to divide view to partials and layouts and render with provided data
-4. Express to handle client request and interact with backend
+4. Express to handle client request and interact with back-end
 5. Use MySQL to store mock up data
 
 ## How to run locally
