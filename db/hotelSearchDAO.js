@@ -40,7 +40,7 @@ function parseInnerJSON(hotel) {
 
 function searchByCity(city) {
   var deferred = Q.defer();
-  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchCity like "%' + city + '%";',
+  connection.query('SELECT * FROM MOCKUP_HOTEL_DETAIL WHERE searchCity like "%' + city + '%";',
     function(error, result, field) {
       var hotel = JSON.parse(JSON.stringify(result))[0];
       if (!hotel) {
@@ -54,7 +54,7 @@ function searchByCity(city) {
 
 function searchByFeeling(feeling) {
   var deferred = Q.defer();
-  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchFeeling="' + feeling + '";',
+  connection.query('SELECT * FROM MOCKUP_HOTEL_DETAIL WHERE searchFeeling="' + feeling + '";',
     function(error, result, field) {
       var hotel = JSON.parse(JSON.stringify(result))[0];
       if (!hotel) {
