@@ -25,4 +25,8 @@ router.get('/mockup/searchFeeling/:feeling', function(req, res) {
   }).done();
 });
 
+router.get('/404.html', function(req, res) {
+  res.send('At 404 page, to be deliver.');
+});
+
 module.exports = router;
