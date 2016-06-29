@@ -2,9 +2,9 @@
 
 # i-feel-lucky-desktop-ui
 
-> website url: http://autobot:3030
-> code style
-> - [ES5: Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/master/es5)
+> Demo Website: https://taojs-i-feel-lucky.herokuapp.com
+
+> Referring to [PINCH.MD](docs/PINCH.MD) for the general idea
 
 
 ## Description
@@ -48,5 +48,7 @@ __Step 2. get source code and install package__
 * <a href="http://commitizen.github.io/cz-cli/">Commitizen</a> Commitizen For Contributors.
 * <a href="http://eslint.org">Eslint</a> ESLint is an open source JavaScript linting utility.
 how to set up mysql: https://www.youtube.com/watch?v=US_wEKuWZ0U
+- [ES5: Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/master/es5)
+
 ## License
 We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
