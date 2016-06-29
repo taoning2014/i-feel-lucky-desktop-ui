@@ -4,9 +4,9 @@
 
 > [Live Demo](https://vimeo.com/172159175)
 
-> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com).
+> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com)
 
-> [PINCH.MD](docs/PINCH.MD). The general idea about this project
+> [PINCH.MD](docs/PINCH.MD) The general idea about this project
 
 ## How to use it
 
@@ -14,15 +14,15 @@
 
 __Case 1: Search by specific feeling__
 
-Hover mouse to "I'm Feel..." button, then choose one feeling from the drop down, the button will change its text to that feeling, click the button again.
+Hover mouse to "I'm Feel..." button, then choose one feeling from the drop down, the button will change its text to that feeling, click the button again. The app will find a best matched hotel according to that feeling.
 
 __Case 2: Search by location feeling__
 
-Enter "New York" in the input box, then select the right one from auto complete. The button will change text to "I'm Feeling Lucky", click the button. __Right now only new york and Baltimore work__.
+Enter "New York" in the input box, then select the right one from auto complete. The button will change text to "I'm Feeling Lucky", click the button. __Only New York and Baltimore work__. The app will find a best matched hotel according to user data.
 
 ## Description
 
-This is the front-end code for a Priceline.com hackathon I attend recently. I wrote this whole front-end repo. You should read [PINCH.MD](docs/PINCH.MD) to understand the idea we pinch before jump into code.
+This is the front-end code for a Priceline.com hackathon I attend recently. I wrote this whole front-end repo. You should read [PINCH.MD](docs/PINCH.MD) to understand the idea.
 
 The project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
 
@@ -50,11 +50,7 @@ __Step 2. get source code and install package__
 6. Go into repo forlder and install node package: ` cd i-feel-lucky-desktop-ui && npm install `
 7. Run express server: `npm start`
 
-## Who we are:
-
-**Folks at Priceline.com**
-
-#### Tech used
+## Tech used
 
 <dl class="dl-horizontal">
 
@@ -81,13 +77,13 @@ __Step 2. get source code and install package__
 </dl>
 
 
-#### Useful links
+## Useful links
 - [Commitizen For Contributors](http://commitizen.github.io/cz-cli)
 - [ESLint](http://eslint.org) An open source JavaScript linting utility.
 - [ES5: Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/master/es5)
 - [Set up mySQL](https://www.youtube.com/watch?v=US_wEKuWZ0U) Brief tutorial for connect MySQL from heroku addon ClearDB to MySQL work bench
 
-#### Copy right
+## Copy right
 Got some images from airbnb for demo purpose
 
 ## License
