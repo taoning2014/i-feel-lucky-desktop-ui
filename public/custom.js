@@ -1,45 +1,4 @@
 $(function() {
-  // Helper function
-  function buildDate(dataStr, moreDates) {
-    if (!dataStr) {
-      var date = new Date();
-      var year = date.getFullYear().toString(10);
-      var month = (parseInt(date.getMonth(), 10)) % 12 + 1;
-      month = month < 10 ? '0' + month : month;
-      var day = (parseInt(date.getDate(), 10));
-      if (moreDates) {
-        // TODO: Not totally right
-        day = (day + moreDates) % 30;
-        day = (day === 0) ? day + 1 : day;
-      }
-      day = day < 10 ? '0' + day : day;
-      return year + month + day;
-    }
-
-    return dataStr.split('/')[2] + dataStr.split('/')[0] + dataStr.split('/')[1];
-  }
-
-  function buildQueryParams(feeling) {
-    var firstParam;
-    if (feeling === 'Lucky') {
-      firstParam = 'citysearchterm=' + $('#where-are-you-going-input').val();
-    } else {
-
-//      firstParam = 'citysearchterm=boston';
-//      howareyoufeeling is not ready, so use to avoid server crash
-      firstParam = 'howareyoufeeling=' + $('#hotel-search-form-lucky-submit-btn').val().toUpperCase();
-    }
-    var cguid = 'cguid=test1002';
-    var checkIn = 'check-in=' + buildDate($('#check-in-input').val());
-    var checkOut = 'check-out=' + buildDate($('#check-out-input').val(), 1);
-    var currency = 'currency=USD';
-    var responseOptions = 'response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS';
-    var roomsSelect = 'rooms=' + $('#rooms-select').val();
-    var productTypes = 'product-types=RTL';
-    var result = '?' + firstParam + '&' + cguid + '&' + checkIn + '&' + checkOut + '&' + currency +
-      '&' + responseOptions + '&' + roomsSelect + '&' + productTypes;
-    return encodeURI(result);
-  }
 
   // Type ahead
   var usCities =
@@ -344,18 +303,6 @@ $(function() {
     // Do nothing in hover out.
   });
 
-  // origin backend api call
-  // $('#hotel-search-form-lucky-submit-btn').click(function() {
-  //   if (isLuckySelected) {
-  //     $('div.dropdown').removeClass('open');
-  //     // Build url
-  //     var EXPRESSAPI = '/lucky';
-  //     var feeling = $('#hotel-search-form-lucky-submit-btn').val();
-  //     var queryParams = buildQueryParams(feeling);
-  //     window.location = EXPRESSAPI + queryParams;
-  //   }
-  // });
-
   // mockup backend api call
   $('#hotel-search-form-lucky-submit-btn').click(function() {
     if (isLuckySelected) {
@@ -391,7 +338,6 @@ $(function() {
   $('#where-are-you-going-input').autocomplete({
     source: usCities
   });
-
 
 });
 
