@@ -344,15 +344,30 @@ $(function() {
     // Do nothing in hover out.
   });
 
+  // origin backend api call
+  // $('#hotel-search-form-lucky-submit-btn').click(function() {
+  //   if (isLuckySelected) {
+  //     $('div.dropdown').removeClass('open');
+  //     // Build url
+  //     var EXPRESSAPI = '/lucky';
+  //     var feeling = $('#hotel-search-form-lucky-submit-btn').val();
+  //     var queryParams = buildQueryParams(feeling);
+  //     window.location = EXPRESSAPI + queryParams;
+  //   }
+  // });
+
+  // mockup backend api call
   $('#hotel-search-form-lucky-submit-btn').click(function() {
     if (isLuckySelected) {
       $('div.dropdown').removeClass('open');
       // Build url
-      var EXPRESSAPI = '/lucky';
       var feeling = $('#hotel-search-form-lucky-submit-btn').val();
-      var queryParams = buildQueryParams(feeling);
-//      console.log('Debug: ' + EXPRESSAPI + queryParams);
-      window.location = EXPRESSAPI + queryParams;
+      if (feeling === 'Lucky') {
+        window.location = 'mockup/searchCity/' + $('#where-are-you-going-input').val();
+      } else {
+        window.location = 'mockup/searchFeeling/' + $('#hotel-search-form-lucky-submit-btn').val();
+      }
+
     }
   });
 

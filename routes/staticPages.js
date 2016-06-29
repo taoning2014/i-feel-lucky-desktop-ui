@@ -42,12 +42,37 @@ router.get('/404.html', function(req, res) {
   res.send('At 404 page, to be deliver.');
 });
 
-router.get('/dbconnect.html', function(req, res) {
+router.get('/mockup/searchCity/:city', function(req, res) {
+  var city = decodeURI(req.params.city);
   var hotel;
-  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE id="2";', function(error, result, field) {
+  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchCity like "%' + city.split(',')[0] + '%";', function(error, result, field) {
     hotel = JSON.parse(JSON.stringify(result))[0];
+    if (hotel === undefined) {
+      res.render('pages/notFind');
+      // BUG: need to return, otherwise code will continue run to end of this function
+      return;
+    }
     hotel.hotelImgs = JSON.parse(hotel.hotelImgs);
     hotel.additionalInformation = JSON.parse(hotel.additionalInformation);
+    hotel.shortDescription = hotel.description.substr(0, 200) + ' [see more in description below]';
+    console.log(hotel);
+    res.render('pages/detail', hotel);
+  });
+});
+
+router.get('/mockup/searchFeeling/:feeling', function(req, res) {
+  var feeling = decodeURI(req.params.feeling);
+  var hotel;
+  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchFeeling="' + feeling + '";', function(error, result, field) {
+    hotel = JSON.parse(JSON.stringify(result))[0];
+    if (hotel === undefined) {
+      res.render('pages/notFind');
+      // BUG: need to return, otherwise code will continue run to end of this function
+      return;
+    }
+    hotel.hotelImgs = JSON.parse(hotel.hotelImgs);
+    hotel.additionalInformation = JSON.parse(hotel.additionalInformation);
+    hotel.shortDescription = hotel.description.substr(0, 200) + ' [see more in description below]';
     console.log(hotel);
     res.render('pages/detail', hotel);
   });
