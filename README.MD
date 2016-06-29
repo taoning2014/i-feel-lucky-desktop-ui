@@ -47,6 +47,6 @@ __Step 2. get source code and install package__
 * <a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123">Canvas</a> Canvas The Multipurpose Html5 Template
 * <a href="http://commitizen.github.io/cz-cli/">Commitizen</a> Commitizen For Contributors.
 * <a href="http://eslint.org">Eslint</a> ESLint is an open source JavaScript linting utility.
-
+how to set up mysql: https://www.youtube.com/watch?v=US_wEKuWZ0U
 ## License
 We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
