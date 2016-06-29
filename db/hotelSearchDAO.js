@@ -1,11 +1,25 @@
 var Q = require('q');
 var mysql = require('mysql');
-var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Criptj86',
-  database: 'I_FEEL_LUCKY'
-});
+var connection;
+var connectionObj;
+
+if (process.env.I_FEEL_LUCKY_RUNNINGENV === 'heroku') {
+  connectionObj = {
+    host: 'us-cdbr-iron-east-04.cleardb.net',
+    user: 'b4487238237fa8',
+    password: '16b082aa',
+    database: 'heroku_002d906b49808a1'
+  };
+} else if (process.env.I_FEEL_LUCKY_RUNNINGENV === 'local') {
+  connectionObj = {
+    host: 'localhost',
+    user: 'root',
+    password: 'Criptj86',
+    database: 'I_FEEL_LUCKY'
+  };
+}
+
+connection = mysql.createConnection(connectionObj);
 
 connection.connect(function(err) {
   if (err) {
