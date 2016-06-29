@@ -5,6 +5,22 @@ var hotelDetailData = require('../data/hotel-detail.json');
 var router = express.Router();
 //var SERVERURL = 'http://nw-hrapi-q04:8080/htlrapi/hotels/v0';
 var SERVERURL = 'http://nw-hrapi-q03:8080/htlrapi/hotels/v0';
+var mysql = require('mysql');
+var connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'Criptj86',
+  database: 'I_FEEL_LUCKY'
+});
+
+connection.connect(function(err) {
+  if (err) {
+    console.error('error connecting: ' + err.stack);
+    return;
+  }
+
+  console.log('connected as id ' + connection.threadId);
+});
 
 router.get(/^\/(index(.html)?)?$/, function(req, res) {
   res.render('pages/landing', { hotels: landingHotelData });
