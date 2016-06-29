@@ -2,25 +2,8 @@ var express = require('express');
 var request = require('superagent');
 var landingHotelData = require('../data/landing-list-hotels.json');
 var hotelDetailData = require('../data/hotel-detail.json');
+var hotelSearchDAO = require('../db/hotelSearchDAO');
 var router = express.Router();
-//var SERVERURL = 'http://nw-hrapi-q04:8080/htlrapi/hotels/v0';
-var SERVERURL = 'http://nw-hrapi-q03:8080/htlrapi/hotels/v0';
-var mysql = require('mysql');
-var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Criptj86',
-  database: 'I_FEEL_LUCKY'
-});
-
-connection.connect(function(err) {
-  if (err) {
-    console.error('error connecting: ' + err.stack);
-    return;
-  }
-
-  console.log('connected as id ' + connection.threadId);
-});
 
 router.get(/^\/(index(.html)?)?$/, function(req, res) {
   res.render('pages/landing', { hotels: landingHotelData });
@@ -43,39 +26,21 @@ router.get('/404.html', function(req, res) {
 });
 
 router.get('/mockup/searchCity/:city', function(req, res) {
-  var city = decodeURI(req.params.city);
-  var hotel;
-  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchCity like "%' + city.split(',')[0] + '%";', function(error, result, field) {
-    hotel = JSON.parse(JSON.stringify(result))[0];
-    if (hotel === undefined) {
-      res.render('pages/notFind');
-      // BUG: need to return, otherwise code will continue run to end of this function
-      return;
-    }
-    hotel.hotelImgs = JSON.parse(hotel.hotelImgs);
-    hotel.additionalInformation = JSON.parse(hotel.additionalInformation);
-    hotel.shortDescription = hotel.description.substr(0, 200) + ' [see more in description below]';
-    console.log(hotel);
+  var city = decodeURI(req.params.city).split(',')[0];
+  hotelSearchDAO.searchByCity(city).then(function(hotel) {
     res.render('pages/detail', hotel);
-  });
+  }, function() {
+    res.render('pages/notFind');
+  }).done();
 });
 
 router.get('/mockup/searchFeeling/:feeling', function(req, res) {
   var feeling = decodeURI(req.params.feeling);
-  var hotel;
-  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE searchFeeling="' + feeling + '";', function(error, result, field) {
-    hotel = JSON.parse(JSON.stringify(result))[0];
-    if (hotel === undefined) {
-      res.render('pages/notFind');
-      // BUG: need to return, otherwise code will continue run to end of this function
-      return;
-    }
-    hotel.hotelImgs = JSON.parse(hotel.hotelImgs);
-    hotel.additionalInformation = JSON.parse(hotel.additionalInformation);
-    hotel.shortDescription = hotel.description.substr(0, 200) + ' [see more in description below]';
-    console.log(hotel);
+  hotelSearchDAO.searchByFeeling(feeling).then(function(hotel) {
     res.render('pages/detail', hotel);
-  });
+  }, function() {
+    res.render('pages/notFind');
+  }).done();
 });
 
 router.get('/lucky', function(req, res) {
