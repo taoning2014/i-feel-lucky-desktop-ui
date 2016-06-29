@@ -1,5 +1,5 @@
 var express = require('express');
-var landingHotelData = require('../data/landing-list-hotels.json');
+var landingHotelData = require('../db/landing-list-hotels.json');
 var hotelSearchDAO = require('../db/hotelSearchDAO');
 var router = express.Router();
 
