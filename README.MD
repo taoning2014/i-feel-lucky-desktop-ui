@@ -2,53 +2,80 @@
 
 # i-feel-lucky-desktop-ui
 
-> Demo Website: https://taojs-i-feel-lucky.herokuapp.com
+> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com). Simply try to search either by specific feeling or a location like "New York".
 
-> Referring to [PINCH.MD](docs/PINCH.MD) for the general idea
+> [PINCH.MD](docs/PINCH.MD). The general idea about this project
 
 
 ## Description
 
-XXX
+This is the front-end code for a Priceline.com hackathon I attend recently. I wrote this whole front-end repo. You should read [PINCH.MD](docs/PINCH.MD) to understand the idea we pinch before jump into code.
 
-**How does it work?**
+The project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
 
-1. XXX
-2. XXX
-3. XXX
-4. XXX
+Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call backend api, and parse the data send from backend.
 
-## How to run i-feel-lucky-desktop-ui
+**Highlight features**
 
-__Step 1. nodejs__
+1. Beautiful UI Design
+2. jQuery and jQueryUI to handle client side logic
+3. Use handlebar to divide view to partials and layouts and render with provided data
+4. Express to handle client request and interact with backend
+5. Use MySQL to store mock up data
+
+## How to run locally
+
+__Step 1. install nodejs, MySQL server, suggest install MySQL work bench for manage MySQL server__
 
 __Step 2. get source code and install package__
 
-1. Clone repo from github: ` $ git clone https://bitbucket.corp.priceline.com/projects/ENG/repos/i-feel-lucky-desktop-ui/browse `
-2. Go into repo forlder and install node package: ` cd i-feel-lucky-desktop-ui && npm install `
-3. Run express server: ` node index `
+1. Clone repo from github: `$ git clone https://github.com/taoning2014/i-feel-lucky-desktop-ui.git`
+2. Turn on MySQL server and create a database schema named "I_FEEL_LUCKY" in MySQL server
+3. Dump data in /db/data-hotel-details.sql to MySQL server
+4. Modify /db/hotelSearchDAO.js line 16-17 for correct MySQL credentials
+5. Set up environment variable I_FEEL_LUCKY_RUNNINGENV with value "local"
+6. Go into repo forlder and install node package: ` cd i-feel-lucky-desktop-ui && npm install `
+7. Run express server: `npm start`
 
 ## Who we are:
 
-**More to be add here**
+**Folks at Priceline.com**
 
-#### Tech stack
+#### Tech used
 
 <dl class="dl-horizontal">
+
+<dt><a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123">Canvas</a></dt>
+<dd>Canvas The Multipurpose Html5 Template</dd>
+
 <dt>Handlebars</dt>
 <dd>Handlebars.js is an extension to the Mustache templating language created by Chris Wanstrath. Handlebars.js and Mustache are both logicless templating languages that keep the view and the code separated like we all know they should be.</dd>
+
+<dt>jQuery</dt>
+<dd>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</dd>
+
+<dt>jQuery UI</dt>
+<dd>jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.</dd>
+
+<dt>Bootstrap</dt>
+<dd>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</dd>
+
 <dt>Express</dt>
 <dd>The best way to understand express is through its Official Website, particularly The Express Guide; you can also go through this StackOverflow thread for more resources.</dd>
+
 <dt>Node.js</dt>
 <dd>Start by going through Node.js Official Website and this StackOverflow thread, which should get you going with the Node.js platform in no time.</dd>
 </dl>
 
-#### Additional Tools
-* <a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123">Canvas</a> Canvas The Multipurpose Html5 Template
-* <a href="http://commitizen.github.io/cz-cli/">Commitizen</a> Commitizen For Contributors.
-* <a href="http://eslint.org">Eslint</a> ESLint is an open source JavaScript linting utility.
-how to set up mysql: https://www.youtube.com/watch?v=US_wEKuWZ0U
+
+#### Useful links
+- [Commitizen For Contributors](http://commitizen.github.io/cz-cli)
+- [ESLint](http://eslint.org) An open source JavaScript linting utility.
 - [ES5: Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/master/es5)
+- [Set up mySQL](https://www.youtube.com/watch?v=US_wEKuWZ0U) Brief tutorial for connect MySQL from heroku addon ClearDB to MySQL work bench
+
+#### Copy right
+Got some images from airbnb for demo purpose
 
 ## License
 We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
