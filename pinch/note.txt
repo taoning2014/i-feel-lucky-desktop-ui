@@ -1,3 +1,24 @@
+Data Schema:
+CREATE TABLE `I_FEEL_LUCKY`.`mockup-hotel-detail` (
+    `idmockup-hotel-detail` INT NOT NULL AUTO_INCREMENT COMMENT '',
+    `hotelName` VARCHAR(200) NOT NULL COMMENT '',
+    `searchCity` VARCHAR(45) NULL COMMENT '',
+    `searchFeeling` VARCHAR(45) NULL COMMENT '',
+    `oldPrice` DECIMAL(2) NOT NULL COMMENT '',
+    `curPrice` DECIMAL(2) NOT NULL COMMENT '',
+    `stars` INT NOT NULL COMMENT '',
+    `addressLine1` VARCHAR(200) NOT NULL COMMENT '',
+    `addressCityName` VARCHAR(45) NOT NULL COMMENT '',
+    `addressProvinceCode` VARCHAR(2) NOT NULL COMMENT '',
+    `addressZIP` VARCHAR(20) NOT NULL COMMENT '',
+    `addressPhone` VARCHAR(20) NOT NULL COMMENT '',
+    `addressIOSCountryCode` VARCHAR(20) NOT NULL COMMENT '',
+    `description` VARCHAR(10000) NOT NULL COMMENT '',
+    `additionalInformation` VARCHAR(10000) NOT NULL COMMENT '',
+    PRIMARY KEY (`idmockup-hotel-detail`) COMMENT ''
+);
+
+
 API:
 1, lucky?citysearchterm=New%20York,%20New%20York&cguid=test1002&check-in=20160628&check-out=20160629&currency=USD&response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS&rooms=1&product-types=RTL
 2, http://autobot:3030/lucky?howareyoufeeling=BEACHY&cguid=test1002&check-in=20160628&check-out=20160629&currency=USD&response-options=TRIP_FILTER_SUMMARY,POP_COUNT,DETAILED_HOTEL,NEARBY_CITY,CLUSTER_INFO,SPONS&rooms=1&product-types=RTL
