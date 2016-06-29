@@ -42,6 +42,17 @@ router.get('/404.html', function(req, res) {
   res.send('At 404 page, to be deliver.');
 });
 
+router.get('/dbconnect.html', function(req, res) {
+  var hotel;
+  connection.query('SELECT * FROM I_FEEL_LUCKY.MOCKUP_HOTEL_DETAIL WHERE id="2";', function(error, result, field) {
+    hotel = JSON.parse(JSON.stringify(result))[0];
+    hotel.hotelImgs = JSON.parse(hotel.hotelImgs);
+    hotel.additionalInformation = JSON.parse(hotel.additionalInformation);
+    console.log(hotel);
+    res.render('pages/detail', hotel);
+  });
+});
+
 router.get('/lucky', function(req, res) {
   var buildBackendURL = SERVERURL + req.originalUrl;
   var hotelImages;
