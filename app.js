@@ -39,17 +39,17 @@ app.use(function(req, res) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
+  console.log('Error Handle Debug: Use dev env');
   app.use(errorhandler());
 }
 
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
+  console.log('Error Handle Debug: Use product env');
+  app.use(errorhandler());
+  // res.status(err.status || 500);
+  // res.end('Server Error');
 });
 
 module.exports = app;
