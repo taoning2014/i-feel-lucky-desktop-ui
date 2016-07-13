@@ -2,31 +2,25 @@
 
 # i-feel-lucky-desktop-ui
 
-> [Live Demo](https://vimeo.com/172159175)
+## Description
+
+This is the front-end code for a Priceline.com hackathon I attend recently. I wrote the whole front-end repo. There are three back-end guys, 1 designer and one data analyst work on other stuff. All from our company which is Priceline.com. The [PINCH.MD](docs/PINCH.MD) will give you a clear picture of the idea.
+
+This project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
+
+There are two kind of data flow from browser to server. Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call back-end api, and parse the data send from back-end.
+
+I really like the UI I wrote, so for demo purpose, I host it on Heroku and mock up the back-end. You may encouter a few seconds latency as I use free dyno on Heroku which will sleep after 30 mintues inactive.
+
+## Reference:
+
+> [Demo Vedio](https://vimeo.com/172159175)
 
 > [Demo Website](https://taojs-i-feel-lucky.herokuapp.com)
 
+> [Code Walk through](https://taojs-i-feel-lucky.herokuapp.com)
+
 > [PINCH.MD](docs/PINCH.MD) The general idea about this project
-
-## How to use it
-
-> As I mock up the back-end API, so the functionality is limited
-
-__Case 1: Search by specific feeling__
-
-Hover mouse to "I'm Feel..." button, then choose one feeling from the drop down, the button will change its text to that feeling, click the button again. The app will find a best matched hotel according to that feeling.
-
-__Case 2: Search by location feeling__
-
-Enter "New York" in the input box, then select the right one from auto complete. The button will change text to "I'm Feeling Lucky", click the button. __Only New York and Baltimore work__. The app will find a best matched hotel according to user data.
-
-## Description
-
-This is the front-end code for a Priceline.com hackathon I attend recently. I wrote this whole front-end repo. You should read [PINCH.MD](docs/PINCH.MD) to understand the idea.
-
-The project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
-
-Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call back-end api, and parse the data send from back-end.
 
 **Highlight features**
 
@@ -36,7 +30,19 @@ Express.js handle the url client visit by rendering view template with correct d
 4. Express to handle client request and interact with back-end
 5. Use MySQL to store mock up data
 
-## How to run locally
+## How to interact with it
+
+__As I mock up the back-end API, so the functionality is limited__
+
+__Case 1: Search by specific feeling__
+
+Hover mouse to "I'm Feel..." button, then choose one feeling from the drop down, the button will change its text to that feeling, click the button again. The app will find a best matched hotel according to that feeling.
+
+__Case 2: Search by location feeling__
+
+Enter "New York" in the input box, then select the right one from auto complete. The button will change text to "I'm Feeling Lucky", click the button. __Only New York and Baltimore work__. The app will find a best matched hotel according to user data.
+
+## How to run the code locally
 
 __Step 1. install nodejs, MySQL server, suggest install MySQL work bench for manage MySQL server__
 
