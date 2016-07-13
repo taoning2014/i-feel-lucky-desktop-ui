@@ -14,15 +14,15 @@ I really like the UI I wrote, so for demo purpose, I host it on Heroku and mock 
 
 ## Reference:
 
-> [Demo Vedio](https://vimeo.com/172159175)
+> Demo [Vedio](https://vimeo.com/172159175)
 
-> [Demo Website](https://taojs-i-feel-lucky.herokuapp.com)
+> Demo [Website](https://taojs-i-feel-lucky.herokuapp.com)
 
-> [Code Walk through](https://taojs-i-feel-lucky.herokuapp.com)
+> Code Walk through [Vedio](https://taojs-i-feel-lucky.herokuapp.com)
 
 > [PINCH.MD](docs/PINCH.MD) The general idea about this project
 
-**Highlight features**
+## Highlight features
 
 1. Beautiful UI Design
 2. jQuery and jQueryUI to handle client side logic
