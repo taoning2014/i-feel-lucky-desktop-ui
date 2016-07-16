@@ -1,12 +1,14 @@
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 # i-feel-lucky-desktop-ui
+
+[![NPM Version][npm-image]][npm-url]
+[![Commitizen friendly][commitizen-image]][commitizen-url]
+[![MIT License][license-image]][license-url]
 
 ## Description
 
 This is the front-end code for a Priceline.com hackathon I attend recently. I wrote the whole front-end repo. There are three back-end guys, 1 designer and one data analyst work on other stuff. All from our company which is Priceline.com. The [PINCH.MD](docs/PINCH.MD) will give you a clear picture of the idea.
 
-This project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
+This project use Express.js as server framework and Handlebar.js as view engine, also leverage jQuery for the client side logical. Use Bootstrap and [canvas](http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123) template for styling.
 
 There are two kind of data flow from browser to server. Express.js handle the url client visit by rendering view template with correct data. It also handle get request send by jQuery with search params. In this case, it will call back-end api, and parse the data send from back-end.
 
@@ -14,11 +16,11 @@ I really like the UI I wrote, so for demo purpose, I host it on Heroku and mock 
 
 ## Reference:
 
-> Demo [Vedio](https://vimeo.com/172159175)
+> Demo [Vedio](https://youtu.be/zUDeTAQiulQ)
 
 > Demo [Website](https://taojs-i-feel-lucky.herokuapp.com)
 
-> Code Walk through [Vedio](https://taojs-i-feel-lucky.herokuapp.com)
+> Code Walk through [Vedio](https://youtu.be/FypRXTl2E44)
 
 > [PINCH.MD](docs/PINCH.MD) The general idea about this project
 
@@ -27,7 +29,7 @@ I really like the UI I wrote, so for demo purpose, I host it on Heroku and mock 
 1. Beautiful UI Design
 2. jQuery and jQueryUI to handle client side logic
 3. Use handlebar to divide view to partials and layouts and render with provided data
-4. Express to handle client request and interact with back-end
+4. Express.js to handle client request and interact with back-end
 5. Use MySQL to store mock up data
 
 ## How to interact with it
@@ -54,7 +56,7 @@ __Step 2. get source code and install package__
 4. Modify /db/hotelSearchDAO.js line 16-17 for correct MySQL credentials
 5. Set up environment variable I_FEEL_LUCKY_RUNNINGENV with value "local"
 6. Go into repo forlder and install node package: ` cd i-feel-lucky-desktop-ui && npm install `
-7. Run express server: `npm start`
+7. Run Express.js server: `npm start`
 
 ## Tech used
 
@@ -75,8 +77,8 @@ __Step 2. get source code and install package__
 <dt>Bootstrap</dt>
 <dd>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</dd>
 
-<dt>Express</dt>
-<dd>The best way to understand express is through its Official Website, particularly The Express Guide; you can also go through this StackOverflow thread for more resources.</dd>
+<dt>Express.js</dt>
+<dd>The best way to understand Express.js is through its Official Website, particularly The Express.js Guide; you can also go through this StackOverflow thread for more resources.</dd>
 
 <dt>Node.js</dt>
 <dd>Start by going through Node.js Official Website and this StackOverflow thread, which should get you going with the Node.js platform in no time.</dd>
@@ -93,4 +95,11 @@ __Step 2. get source code and install package__
 Got some images from airbnb for demo purpose
 
 ## License
-We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
+[MIT][license-url] We believe that mean should be free and easy to integrate within your existing projects so we chose [The MIT License](http://opensource.org/licenses/MIT)
+
+[npm-image]: https://img.shields.io/npm/v/npm.svg
+[npm-url]: https://npmjs.org/package/express-paginate
+[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-url]: http://commitizen.github.io/cz-cli
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
